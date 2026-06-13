@@ -24,3 +24,62 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Hero phone animations */
+@keyframes phone-float {
+  0%,
+  100% {
+    transform: translateY(0) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-16px) rotate(1.5deg);
+  }
+}
+
+@keyframes phone-float-alt {
+  0%,
+  100% {
+    transform: translateY(0) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-24px) rotate(-1.5deg);
+  }
+}
+
+@keyframes glow-pulse {
+  0%,
+  100% {
+    opacity: 0.45;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.12);
+  }
+}
+
+.animate-phone-float {
+  animation: phone-float 6s ease-in-out infinite;
+}
+
+.animate-phone-float-alt {
+  animation: phone-float-alt 7.5s ease-in-out infinite;
+}
+
+.animate-glow-pulse {
+  animation: glow-pulse 4.5s ease-in-out infinite;
+}
+
+/* Keep cursor-tilted phones on a stable GPU layer to avoid flicker */
+.gpu-stable {
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-phone-float,
+  .animate-phone-float-alt,
+  .animate-glow-pulse {
+    animation: none;
+  }
+}

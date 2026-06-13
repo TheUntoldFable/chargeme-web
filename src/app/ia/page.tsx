@@ -1,5 +1,11 @@
 "use client";
-import { useEffect, useRef, useState, type ReactNode } from "react";
+import {
+  useEffect,
+  useRef,
+  useState,
+  type PointerEvent as ReactPointerEvent,
+  type ReactNode,
+} from "react";
 import Link from "next/link";
 import Image from "next/image";
 import DemoRequestForm from "./DemoRequestForm";
@@ -102,12 +108,98 @@ function HowItWorksCard({
   );
 }
 
+type PhoneCardProps = {
+  alt: string;
+  parallax: { x: number; y: number };
+  mouse: { x: number; y: number };
+  mounted: boolean;
+  baseRotate: number;
+  zClass: string;
+  floatClass: string;
+  delayMs: number;
+  depth: number;
+  tilt: number;
+};
+
+function PhoneCard({
+  alt,
+  parallax,
+  mouse,
+  mounted,
+  baseRotate,
+  zClass,
+  floatClass,
+  delayMs,
+  depth,
+  tilt,
+}: PhoneCardProps) {
+  return (
+    // Layer 1: scroll + mouse parallax (translate)
+    <div
+      className={`relative ${zClass}`}
+      style={{
+        transform: `translate3d(${parallax.x + mouse.x * depth}px, ${
+          parallax.y + mouse.y * depth * 0.5
+        }px, 0)`,
+      }}
+    >
+      {/* Layer 2: entrance reveal */}
+      <div
+        className="transition-all duration-1000 ease-out will-change-transform"
+        style={{
+          opacity: mounted ? 1 : 0,
+          transform: mounted
+            ? "translateY(0) scale(1)"
+            : "translateY(56px) scale(0.9)",
+          transitionDelay: `${delayMs}ms`,
+        }}
+      >
+        {/* Layer 3: continuous float (CSS keyframes) + perspective; hosts the glow */}
+        <div
+          className={`relative ${floatClass}`}
+          style={{ perspective: "1200px" }}
+        >
+          {/* Soft glow — floats with the phone but is NOT cursor-tilted,
+              keeping the blur off the constantly-changing 3D layer */}
+          <div className="animate-glow-pulse pointer-events-none absolute -inset-10 sm:-inset-16 -z-10 rounded-full blur-2xl bg-[radial-gradient(circle_at_center,rgba(120,120,120,0.25),transparent_70%)]"></div>
+
+          {/* Layer 4: base tilt + cursor-driven 3D tilt */}
+          <div
+            className="gpu-stable relative will-change-transform"
+            style={{
+              transform: `rotateX(${mouse.y * -tilt}deg) rotateY(${
+                mouse.x * tilt
+              }deg) rotate(${baseRotate}deg)`,
+            }}
+          >
+            <div className="relative w-[150px] h-[320px] sm:w-[240px] sm:h-[500px] rounded-[2rem] sm:rounded-[2.5rem] shadow-[0_20px_120px_-40px_rgba(0,0,0,0.9)] overflow-hidden border border-white/10 bg-black">
+              <div className="absolute inset-0 blur-3xl [transform:translateZ(0)] bg-[radial-gradient(circle_at_center,rgba(251,191,36,0.12),transparent_60%)]"></div>
+              <Image
+                src="/phone-hero.png"
+                alt={alt}
+                fill
+                className="object-contain p-2 relative z-10"
+                priority
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
 function ParallaxPhoneHero() {
   const ref = useRef<HTMLDivElement | null>(null);
   const [offsetY, setOffsetY] = useState<number>(0);
   const [offsetX, setOffsetX] = useState<number>(0);
   const [offsetY2, setOffsetY2] = useState<number>(0);
   const [offsetX2, setOffsetX2] = useState<number>(0);
+  const [mounted, setMounted] = useState<boolean>(false);
+  const [mouse, setMouse] = useState<{ x: number; y: number }>({ x: 0, y: 0 });
+  const targetRef = useRef<{ x: number; y: number }>({ x: 0, y: 0 });
+  const currentRef = useRef<{ x: number; y: number }>({ x: 0, y: 0 });
+  const rafRef = useRef<number | null>(null);
 
   useEffect(() => {
     const node = ref.current;
@@ -117,9 +209,9 @@ function ParallaxPhoneHero() {
       const rect = node.getBoundingClientRect();
       const windowH = window.innerHeight || 1;
       const progress = 1 - Math.min(Math.max(rect.top / windowH, 0), 1);
-      // Stronger vertical parallax
-      setOffsetY(progress * 90);
-      setOffsetY2(progress * 70);
+      // Vertical parallax (kept within the row's padding so it never clips)
+      setOffsetY(progress * 50);
+      setOffsetY2(progress * 40);
       // Converging horizontal motion
       const leftStart = -40; // px
       const leftEnd = 20; // px
@@ -134,51 +226,92 @@ function ParallaxPhoneHero() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  return (
-    <div ref={ref} className="relative max-w-5xl mx-auto text-center">
-      <h2 className="text-white text-2xl font-bold mb-8">Scan. Order. Pay</h2>
-      <div className="relative flex items-center justify-center gap-12">
-        {/* Left/back phone */}
-        <div
-          style={{
-            transform: `translate3d(${offsetX}px, ${offsetY}px, 0) rotate(-12deg)`,
-          }}
-          className="relative z-10"
-        >
-          {/* grey shadow behind */}
-          <div className="pointer-events-none absolute -inset-16 -z-10 rounded-full blur-2xl bg-[radial-gradient(circle_at_center,rgba(120,120,120,0.25),transparent_70%)]"></div>
-          <div className="relative w-[240px] h-[500px] rounded-[2.5rem] shadow-[0_20px_120px_-40px_rgba(0,0,0,0.9)] overflow-hidden border border-white/10 bg-black will-change-transform transition-transform duration-150 ease-out">
-            <div className="absolute inset-0 blur-3xl bg-[radial-gradient(circle_at_center,rgba(251,191,36,0.12),transparent_60%)]"></div>
-            <Image
-              src="/phone-hero.png"
-              alt="ChargeMe screen"
-              fill
-              className="object-contain p-2 relative z-10"
-              priority
-            />
-          </div>
-        </div>
+  // Trigger the entrance reveal on first paint
+  useEffect(() => {
+    const id = requestAnimationFrame(() => setMounted(true));
+    return () => cancelAnimationFrame(id);
+  }, []);
 
-        {/* Right/front phone */}
-        <div
-          style={{
-            transform: `translate3d(${offsetX2}px, ${offsetY2}px, 0) rotate(12deg)`,
-          }}
-          className="relative z-20"
-        >
-          {/* grey shadow behind */}
-          <div className="pointer-events-none absolute -inset-16 -z-10 rounded-full blur-2xl bg-[radial-gradient(circle_at_center,rgba(120,120,120,0.25),transparent_70%)]"></div>
-          <div className="relative w-[240px] h-[500px] rounded-[2.5rem] shadow-[0_20px_120px_-40px_rgba(0,0,0,0.9)] overflow-hidden border border-white/10 bg-black will-change-transform transition-transform duration-150 ease-out">
-            <div className="absolute inset-0 blur-3xl bg-[radial-gradient(circle_at_center,rgba(251,191,36,0.12),transparent_60%)]"></div>
-            <Image
-              src="/phone-hero.png"
-              alt="ChargeMe screen 2"
-              fill
-              className="object-contain p-2 relative z-10"
-              priority
-            />
-          </div>
-        </div>
+  // Stop the smoothing loop on unmount
+  useEffect(() => {
+    return () => {
+      if (rafRef.current !== null) cancelAnimationFrame(rafRef.current);
+    };
+  }, []);
+
+  // Ease the rendered tilt toward the cursor target a little each frame (lerp),
+  // so it glides instead of snapping — including the return to centre on leave.
+  const runSmoothing = () => {
+    const cur = currentRef.current;
+    const tgt = targetRef.current;
+    const nx = cur.x + (tgt.x - cur.x) * 0.12;
+    const ny = cur.y + (tgt.y - cur.y) * 0.12;
+    currentRef.current = { x: nx, y: ny };
+
+    if (Math.abs(tgt.x - nx) > 0.0006 || Math.abs(tgt.y - ny) > 0.0006) {
+      setMouse({ x: nx, y: ny });
+      rafRef.current = requestAnimationFrame(runSmoothing);
+    } else {
+      // Settled: land exactly on target and stop the loop
+      currentRef.current = { x: tgt.x, y: tgt.y };
+      setMouse({ x: tgt.x, y: tgt.y });
+      rafRef.current = null;
+    }
+  };
+
+  const startSmoothing = () => {
+    if (rafRef.current === null) {
+      rafRef.current = requestAnimationFrame(runSmoothing);
+    }
+  };
+
+  const handlePointerMove = (e: ReactPointerEvent<HTMLDivElement>) => {
+    const rect = e.currentTarget.getBoundingClientRect();
+    targetRef.current = {
+      x: (e.clientX - rect.left) / rect.width - 0.5,
+      y: (e.clientY - rect.top) / rect.height - 0.5,
+    };
+    startSmoothing();
+  };
+
+  const handlePointerLeave = () => {
+    targetRef.current = { x: 0, y: 0 };
+    startSmoothing();
+  };
+
+  return (
+    <div
+      ref={ref}
+      onPointerMove={handlePointerMove}
+      onPointerLeave={handlePointerLeave}
+      className="relative max-w-5xl mx-auto text-center overflow-hidden"
+    >
+      <h2 className="text-white text-2xl font-bold mb-8">Scan. Order. Pay</h2>
+      <div className="relative flex items-center justify-center gap-6 sm:gap-12 py-16">
+        <PhoneCard
+          alt="ChargeMe screen"
+          parallax={{ x: offsetX, y: offsetY }}
+          mouse={mouse}
+          mounted={mounted}
+          baseRotate={-12}
+          zClass="z-10"
+          floatClass="animate-phone-float"
+          delayMs={120}
+          depth={22}
+          tilt={6}
+        />
+        <PhoneCard
+          alt="ChargeMe screen 2"
+          parallax={{ x: offsetX2, y: offsetY2 }}
+          mouse={mouse}
+          mounted={mounted}
+          baseRotate={12}
+          zClass="z-20"
+          floatClass="animate-phone-float-alt"
+          delayMs={280}
+          depth={36}
+          tilt={9}
+        />
       </div>
     </div>
   );
