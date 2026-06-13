@@ -2,6 +2,7 @@
 import { useEffect, useRef, useState, type ReactNode } from "react";
 import Link from "next/link";
 import Image from "next/image";
+import DemoRequestForm from "./DemoRequestForm";
 
 type Feature = {
   title: string;
@@ -581,60 +582,7 @@ export default function Page() {
             <h3 className="text-white text-xl font-semibold text-center mb-6">
               Request a Demo
             </h3>
-            <form className="space-y-4">
-              <div>
-                <label className="sr-only">Name</label>
-                <input
-                  className="w-full bg-[#0e0f11] border border-white/10 rounded-md px-4 py-2 text-sm text-white placeholder-gray-500 focus:outline-none focus:border-yellow-400/50"
-                  placeholder="Name"
-                />
-              </div>
-              <div>
-                <label className="sr-only">Restaurant Name</label>
-                <input
-                  className="w-full bg-[#0e0f11] border border-white/10 rounded-md px-4 py-2 text-sm text-white placeholder-gray-500 focus:outline-none focus:border-yellow-400/50"
-                  placeholder="Restaurant Name"
-                />
-              </div>
-              <div>
-                <label className="sr-only">Restaurant Address</label>
-                <input
-                  className="w-full bg-[#0e0f11] border border-white/10 rounded-md px-4 py-2 text-sm text-white placeholder-gray-500 focus:outline-none focus:border-yellow-400/50"
-                  placeholder="Restaurant Address"
-                />
-              </div>
-              <div>
-                <label className="sr-only">Phone Number</label>
-                <input
-                  className="w-full bg-[#0e0f11] border border-white/10 rounded-md px-4 py-2 text-sm text-white placeholder-gray-500 focus:outline-none focus:border-yellow-400/50"
-                  placeholder="Phone Number"
-                />
-              </div>
-              <div>
-                <label className="sr-only">Email</label>
-                <input
-                  type="email"
-                  className="w-full bg-[#0e0f11] border border-white/10 rounded-md px-4 py-2 text-sm text-white placeholder-gray-500 focus:outline-none focus:border-yellow-400/50"
-                  placeholder="Email"
-                />
-              </div>
-              <div>
-                <label className="sr-only">
-                  What do you need to hear about us?
-                </label>
-                <textarea
-                  rows={3}
-                  className="w-full bg-[#0e0f11] border border-white/10 rounded-md px-4 py-2 text-sm text-white placeholder-gray-500 focus:outline-none focus:border-yellow-400/50"
-                  placeholder="What do you need to hear about us?"
-                />
-                <div className="text-[11px] text-gray-500 mt-1">
-                  (2-3 words max)
-                </div>
-              </div>
-              <button className="w-full bg-yellow-400 text-black font-semibold py-2.5 rounded-md hover:brightness-95 transition">
-                Send Request
-              </button>
-            </form>
+            <DemoRequestForm />
           </div>
         </div>
       </section>
