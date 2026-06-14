@@ -1,94 +1,85 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+    --background: #0a0a0a;
+    --foreground: #ededed;
   }
 }
 
-html {
-    font-family: 'Overpass_Mono';
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  box-sizing: border-box;
-}
-
-.clear {
-  clear: both;
-}
-
-.right {
-  float: right;
-}
-
-.left {
-  float: left;
-}
-
 body {
-  color: #342e37;
-  background: #EBEBEB;
-  line-height: 1.2;
-  overflow-x: hidden;
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-h1 {
-  display: inline-block;
-  font-size: 4.2rem;
+/* Hero phone animations */
+@keyframes phone-float {
+  0%,
+  100% {
+    transform: translateY(0) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-16px) rotate(1.5deg);
+  }
 }
 
-h1 span {
-  max-width: 100%; /* or adjust accordingly */
-  display: inline-block; /* Ensures it doesn't break onto a new line */
+@keyframes phone-float-alt {
+  0%,
+  100% {
+    transform: translateY(0) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-24px) rotate(-1.5deg);
+  }
 }
 
-h2 {
-  font-size: 3rem;
+@keyframes glow-pulse {
+  0%,
+  100% {
+    opacity: 0.45;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.12);
+  }
 }
 
-h3 {
-  font-size: 1.8rem;
+.animate-phone-float {
+  animation: phone-float 6s ease-in-out infinite;
 }
 
-h4 {
-  font-size: 1.6rem;
+.animate-phone-float-alt {
+  animation: phone-float-alt 7.5s ease-in-out infinite;
 }
 
-h5 {
-  font-size: 1.4rem;
+.animate-glow-pulse {
+  animation: glow-pulse 4.5s ease-in-out infinite;
 }
 
-p {
-  font-size: 1.2rem;
+/* Keep cursor-tilted phones on a stable GPU layer to avoid flicker */
+.gpu-stable {
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
 }
 
-input.text {
-  padding: 3px;
-  border: 1px solid #999999;
-}
-
-/* Tables
-    -----------------------------------------------------------------------------*/
-
-table {
-  border-spacing: 0;
-  border-collapse: collapse;
-}
-
-td {
-  text-align: left;
-  font-weight: normal;
-}
-
-.container {
-    margin: 0 auto;
-    padding: 0 15px;
+@media (prefers-reduced-motion: reduce) {
+  .animate-phone-float,
+  .animate-phone-float-alt,
+  .animate-glow-pulse {
+    animation: none;
+  }
 }
