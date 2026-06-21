@@ -1,0 +1,193 @@
+{
+  "nav": {
+    "features": "FEATURES",
+    "howItWorks": "HOW IT WORKS",
+    "pricing": "PRICING",
+    "faq": "FAQ",
+    "demo": "DEMO",
+    "languageAria": "Change language"
+  },
+  "showcase": {
+    "title": "Scan. Order. Pay",
+    "altOrder": "ChargeMe order screen",
+    "altMenu": "ChargeMe menu screen",
+    "altPayment": "ChargeMe payment screen"
+  },
+  "hero": {
+    "badge": "Scan. Order. Pay.",
+    "titleLead": "The Future of ",
+    "titleHighlight": "Restaurant Menus",
+    "subtitle": "A modern QR-powered dining experience. Let guests browse, customize, and pay securely from their phones—no app required.",
+    "viewDemo": "View Demo"
+  },
+  "features": {
+    "title": "Powerful Features",
+    "subtitle": "Everything you need to modernize your restaurant's menu experience",
+    "items": {
+      "qr": {
+        "title": "QR Code Integration",
+        "desc": "Customers scan a unique QR code to instantly access your digital menu."
+      },
+      "mobile": {
+        "title": "Mobile Optimized",
+        "desc": "Perfect experience on all screens with responsive design."
+      },
+      "updates": {
+        "title": "Easy Menu Updates",
+        "desc": "Add, edit, or remove items in minutes—no app-store resubmits."
+      },
+      "analytics": {
+        "title": "Analytics Dashboard",
+        "desc": "See order trends, best-sellers, and performance."
+      },
+      "availability": {
+        "title": "Real-time Availability",
+        "desc": "Mark items as sold-out instantly across your locations."
+      },
+      "contactless": {
+        "title": "Contactless & Safe",
+        "desc": "Reduce physical contact while maintaining excellent service."
+      },
+      "branding": {
+        "title": "Custom Branding",
+        "desc": "Match your brand with custom colors, fonts, and logos."
+      },
+      "multilang": {
+        "title": "Multi-language Support",
+        "desc": "Serve guests in their language with effortless switching."
+      }
+    }
+  },
+  "howItWorks": {
+    "titleLead": "How It ",
+    "titleHighlight": "Works",
+    "subtitle": "Simple, seamless, and secure - your customers will love the experience",
+    "step1": {
+      "label": "STEP 1",
+      "title": "Scan QR Code",
+      "desc": "Customers scan the QR code placed on their table using their smartphone camera"
+    },
+    "step2": {
+      "label": "STEP 2",
+      "title": "Browse Menu",
+      "desc": "Your beautifully designed digital menu opens instantly on their device"
+    },
+    "step3": {
+      "label": "STEP 3",
+      "title": "Place Order",
+      "desc": "Customers can view items, see prices, and place orders directly from their phone"
+    }
+  },
+  "pricing": {
+    "badge": "Pricing",
+    "titleLead": "Simple, ",
+    "titleHighlight": "Transparent",
+    "titleTrail": " Pricing",
+    "subtitle": "One all-in-one plan with everything you need to run and grow your restaurant.",
+    "firstMonthFree": "FIRST MONTH FREE",
+    "perMonth": "/ month",
+    "beforeVat": "before VAT",
+    "cta": "Start Your Free Month",
+    "saveTitle": "Save 15%",
+    "saveDesc": "when you sign a 2-year contract",
+    "everythingIncluded": "Everything included",
+    "features": [
+      "No installation fee",
+      "Mobile app for monitoring & statistics",
+      "Mobile app for taking orders on the go",
+      "Connect an unlimited number of workstations",
+      "Automatic cloud backup & database storage",
+      "Automatic updates to the latest versions",
+      "24/7 support",
+      "Staff training included",
+      "Product catalog setup guidance",
+      "Remote access"
+    ]
+  },
+  "faq": {
+    "badge": "FAQ",
+    "titleLead": "Frequently Asked ",
+    "titleHighlight": "Questions",
+    "subtitle": "Everything you need to know before getting started.",
+    "items": [
+      {
+        "question": "How much does it cost?",
+        "answer": "€50 per month (before VAT), with no installation fee. Your first month is completely free and no credit card is required to get started."
+      },
+      {
+        "question": "Is there really a free trial?",
+        "answer": "Yes — your first month is on us, so you can test everything risk-free. No card required, and you can cancel anytime."
+      },
+      {
+        "question": "Do you offer a discount for longer commitments?",
+        "answer": "Yes. Sign a 2-year contract and you'll get 15% off your monthly price."
+      },
+      {
+        "question": "Do my customers need to download an app?",
+        "answer": "No. Guests scan the QR code on their table and browse, order, and pay straight from their phone's browser — no app required."
+      },
+      {
+        "question": "How many devices or workstations can I connect?",
+        "answer": "As many as you need. Connect an unlimited number of workstations at no extra cost."
+      },
+      {
+        "question": "Is my data safe and backed up?",
+        "answer": "Yes. Your database is automatically backed up and stored in the cloud, so your menu, orders, and statistics are always protected."
+      },
+      {
+        "question": "Do you help with setup, training, and support?",
+        "answer": "Absolutely. You get staff training, guidance for setting up your product catalog, 24/7 support, and automatic updates to the latest version."
+      },
+      {
+        "question": "Can I manage my restaurant remotely?",
+        "answer": "Yes. With remote access and our mobile apps you can monitor sales and statistics — and even take orders — from your phone, wherever you are."
+      }
+    ]
+  },
+  "ctaSection": {
+    "titleLead": "Ready to ",
+    "titleHighlight": "Modernize",
+    "titleTrail": " Your Restaurant?",
+    "subtitle": "Join thousands of restaurants already using Charge me to enhance their customer experience",
+    "benefits": [
+      "14-day free trial",
+      "No setup fees",
+      "24/7 support",
+      "Easy migration"
+    ],
+    "startFreeTrial": "Start Your Free Trial"
+  },
+  "demoSection": {
+    "title": "Request a Demo"
+  },
+  "form": {
+    "name": "Name",
+    "restaurantName": "Restaurant Name",
+    "restaurantAddress": "Restaurant Address",
+    "phoneNumber": "Phone Number",
+    "email": "Email",
+    "messageLabel": "What do you need to hear about us?",
+    "send": "Send Request",
+    "sending": "Sending…",
+    "errorEmail": "Please enter a valid email address.",
+    "errorPhone": "Enter a valid Bulgarian phone number (e.g. +359 88 123 4567 or 0888 123 456).",
+    "errorRequired": "Please fill in your name, restaurant name, email, and message.",
+    "errorGeneric": "Something went wrong. Please try again.",
+    "errorNetwork": "Network error. Please try again.",
+    "successTitle": "Request sent!",
+    "successBody": "Thanks — we've received your request and will be in touch shortly.",
+    "successAgain": "Send another request"
+  },
+  "footer": {
+    "blurb": "Revolutionizing restaurant experiences with smart digital menu solutions.",
+    "quickLinks": {
+      "title": "Quick Links",
+      "features": "Features",
+      "howItWorks": "How It Works",
+      "pricing": "Pricing",
+      "faq": "FAQ",
+      "demo": "Demo"
+    },
+    "copyright": "© 2024 Charge me. All rights reserved."
+  }
+}
