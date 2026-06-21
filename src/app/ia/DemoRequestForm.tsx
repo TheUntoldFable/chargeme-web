@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { useTranslation } from "react-i18next";
 
 function inputCls(hasError?: boolean) {
   return `w-full bg-[#0e0f11] border rounded-md px-4 py-2 text-sm text-white placeholder-gray-500 focus:outline-none ${
@@ -28,6 +29,8 @@ type Status = "idle" | "submitting" | "success" | "error";
 type FieldErrors = { email?: string; phone?: string };
 
 export default function DemoRequestForm() {
+  const { t } = useTranslation();
+
   const [name, setName] = useState("");
   const [restaurantName, setRestaurantName] = useState("");
   const [restaurantAddress, setRestaurantAddress] = useState("");
@@ -56,11 +59,10 @@ export default function DemoRequestForm() {
 
     const errors: FieldErrors = {};
     if (email.trim() && !isValidEmail(email)) {
-      errors.email = "Please enter a valid email address.";
+      errors.email = t("form.errorEmail");
     }
     if (phoneNumber.trim() && !isValidBulgarianPhone(phoneNumber)) {
-      errors.phone =
-        "Enter a valid Bulgarian phone number (e.g. +359 88 123 4567 or 0888 123 456).";
+      errors.phone = t("form.errorPhone");
     }
 
     const missingRequired =
@@ -71,11 +73,7 @@ export default function DemoRequestForm() {
 
     if (missingRequired || errors.email || errors.phone) {
       setFieldErrors(errors);
-      setError(
-        missingRequired
-          ? "Please fill in your name, restaurant name, email, and message."
-          : "",
-      );
+      setError(missingRequired ? t("form.errorRequired") : "");
       setStatus("error");
       return;
     }
@@ -99,7 +97,7 @@ export default function DemoRequestForm() {
       if (!res.ok) {
         const data = await res.json().catch(() => ({}));
         setStatus("error");
-        setError(data.error ?? "Something went wrong. Please try again.");
+        setError(data.error ?? t("form.errorGeneric"));
         return;
       }
 
@@ -112,7 +110,7 @@ export default function DemoRequestForm() {
       setMessage("");
     } catch {
       setStatus("error");
-      setError("Network error. Please try again.");
+      setError(t("form.errorNetwork"));
     }
   }
 
@@ -134,40 +132,40 @@ export default function DemoRequestForm() {
       >
         <form className="space-y-4" onSubmit={handleSubmit} noValidate>
           <div>
-            <label className="sr-only">Name</label>
+            <label className="sr-only">{t("form.name")}</label>
             <input
               className={inputCls()}
-              placeholder="Name"
+              placeholder={t("form.name")}
               required
               value={name}
               onChange={(e) => setName(e.target.value)}
             />
           </div>
           <div>
-            <label className="sr-only">Restaurant Name</label>
+            <label className="sr-only">{t("form.restaurantName")}</label>
             <input
               className={inputCls()}
-              placeholder="Restaurant Name"
+              placeholder={t("form.restaurantName")}
               required
               value={restaurantName}
               onChange={(e) => setRestaurantName(e.target.value)}
             />
           </div>
           <div>
-            <label className="sr-only">Restaurant Address</label>
+            <label className="sr-only">{t("form.restaurantAddress")}</label>
             <input
               className={inputCls()}
-              placeholder="Restaurant Address"
+              placeholder={t("form.restaurantAddress")}
               value={restaurantAddress}
               onChange={(e) => setRestaurantAddress(e.target.value)}
             />
           </div>
           <div>
-            <label className="sr-only">Phone Number</label>
+            <label className="sr-only">{t("form.phoneNumber")}</label>
             <input
               type="tel"
               className={inputCls(!!fieldErrors.phone)}
-              placeholder="Phone Number"
+              placeholder={t("form.phoneNumber")}
               value={phoneNumber}
               onChange={(e) => {
                 setPhoneNumber(e.target.value);
@@ -182,11 +180,11 @@ export default function DemoRequestForm() {
             )}
           </div>
           <div>
-            <label className="sr-only">Email</label>
+            <label className="sr-only">{t("form.email")}</label>
             <input
               type="email"
               className={inputCls(!!fieldErrors.email)}
-              placeholder="Email"
+              placeholder={t("form.email")}
               required
               value={email}
               onChange={(e) => {
@@ -202,16 +200,15 @@ export default function DemoRequestForm() {
             )}
           </div>
           <div>
-            <label className="sr-only">What do you need to hear about us?</label>
+            <label className="sr-only">{t("form.messageLabel")}</label>
             <textarea
               rows={3}
               className={inputCls()}
-              placeholder="What do you need to hear about us?"
+              placeholder={t("form.messageLabel")}
               required
               value={message}
               onChange={(e) => setMessage(e.target.value)}
             />
-            <div className="text-[11px] text-gray-500 mt-1">(2-3 words max)</div>
           </div>
 
           {error && (
@@ -225,7 +222,7 @@ export default function DemoRequestForm() {
             disabled={submitting}
             className="w-full bg-yellow-400 text-black font-semibold py-2.5 rounded-md hover:brightness-95 transition disabled:opacity-60 disabled:cursor-not-allowed"
           >
-            {submitting ? "Sending…" : "Send Request"}
+            {submitting ? t("form.sending") : t("form.send")}
           </button>
         </form>
       </div>
@@ -253,10 +250,10 @@ export default function DemoRequestForm() {
             <path d="M20 6 9 17l-5-5" />
           </svg>
         </div>
-        <h4 className="mb-1 text-lg font-semibold text-white">Request sent!</h4>
-        <p className="max-w-xs text-sm text-gray-400">
-          Thanks — we&apos;ve received your request and will be in touch shortly.
-        </p>
+        <h4 className="mb-1 text-lg font-semibold text-white">
+          {t("form.successTitle")}
+        </h4>
+        <p className="max-w-xs text-sm text-gray-400">{t("form.successBody")}</p>
         <button
           type="button"
           onClick={() => {
@@ -266,7 +263,7 @@ export default function DemoRequestForm() {
           }}
           className="mt-5 text-sm font-medium text-yellow-400 transition hover:text-yellow-300"
         >
-          Send another request
+          {t("form.successAgain")}
         </button>
       </div>
     </div>
