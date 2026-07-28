@@ -1,0 +1,26 @@
+# ChargeM3
+
+ChargeM3 is a QR-powered digital menu and ordering platform for restaurants.
+Guests scan a QR code at the table to browse the menu, customize and place
+orders, and pay securely from their phones — no app installation required.
+
+## Main Services
+
+- QR code digital menus
+- Contactless ordering and payment
+- Easy menu updates in real time (no app-store resubmits)
+- Real-time item availability across locations
+- Analytics dashboard with order trends and best-sellers
+- Custom branding (colors, fonts, logos)
+- Multi-language menus
+
+## Important Pages
+
+- https://chargem3.com/en — product overview, features, pricing, FAQ, demo booking (English)
+- https://chargem3.com/bg — same content in Bulgarian
+
+## Summary
+
+ChargeM3 helps restaurants modernize their menu experience, reduce ordering
+errors, speed up service, and improve customer experience through QR-based
+digital ordering and restaurant management tools.

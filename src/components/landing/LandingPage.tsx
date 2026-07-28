@@ -10,7 +10,8 @@ import {
 import Link from "next/link";
 import Image from "next/image";
 import { useTranslation } from "react-i18next";
-import DemoRequestForm from "./DemoRequestForm";
+import ContactTabs from "./ContactTabs";
+import CalendlyBadge from "./CalendlyBadge";
 import LanguageSwitcher from "@/i18n/LanguageSwitcher";
 
 type Feature = {
@@ -639,7 +640,8 @@ function FaqSection() {
 }
 
 export default function Page() {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const lang = i18n.resolvedLanguage ?? i18n.language;
 
   const navLinks = [
     { key: "features", href: "#features" },
@@ -647,6 +649,7 @@ export default function Page() {
     { key: "pricing", href: "#pricing" },
     { key: "faq", href: "#faq" },
     { key: "demo", href: "#demo" },
+    { key: "booking", href: "#booking" },
   ];
 
   const ctaBenefits = t("ctaSection.benefits", {
@@ -655,11 +658,12 @@ export default function Page() {
 
   return (
     <main className="min-h-screen bg-black">
+      <CalendlyBadge />
       {/* Navbar */}
       <header className="sticky top-0 z-50 bg-[#0c0c0d]/95 backdrop-blur border-b border-white/10">
         <div className="max-w-7xl mx-auto px-6 h-14 flex items-center justify-between">
           {/* Brand */}
-          <Link href="/" className="flex items-center gap-2">
+          <Link href={`/${lang}`} className="flex items-center gap-2">
             <Image
               src="/chargeme-logo.png"
               alt="ChargeMe"
@@ -1009,18 +1013,24 @@ export default function Page() {
           </div>
         </div>
       </section>
-      {/* Request a Demo Form */}
+      {/* Request a Demo / Book a Meeting (tabbed) */}
       <section
         id="demo"
         className="scroll-mt-16 py-24 px-6 bg-gradient-to-b from-[#0f0f0f] to-[#0c0c0c]"
       >
-        <div className="max-w-xl mx-auto">
-          <div className="bg-[#111214]/90 border border-white/5 rounded-xl p-6 shadow-[0_10px_60px_-20px_rgba(0,0,0,0.6)]">
-            <h3 className="text-white text-xl font-semibold text-center mb-6">
-              {t("demoSection.title")}
-            </h3>
-            <DemoRequestForm />
+        <div className="max-w-4xl mx-auto">
+          <div className="text-center mb-8">
+            <h2 className="text-3xl sm:text-4xl font-extrabold text-white mb-2">
+              {t("contactSection.titleLead")}
+              <span className="text-yellow-400">
+                {t("contactSection.titleHighlight")}
+              </span>
+            </h2>
+            <p className="text-gray-400 text-sm">
+              {t("contactSection.subtitle")}
+            </p>
           </div>
+          <ContactTabs />
         </div>
       </section>
 
@@ -1117,6 +1127,11 @@ export default function Page() {
                 <li>
                   <a href="#demo" className="hover:text-yellow-400">
                     {t("footer.quickLinks.demo")}
+                  </a>
+                </li>
+                <li>
+                  <a href="#booking" className="hover:text-yellow-400">
+                    {t("footer.quickLinks.booking")}
                   </a>
                 </li>
               </ul>

@@ -4,15 +4,14 @@ import { initReactI18next } from "react-i18next";
 import en from "./locales/en.json";
 import bg from "./locales/bg.json";
 
-export const STORAGE_KEY = "chargeme-lang";
-export const DEFAULT_LANGUAGE = "en";
+export {
+  LOCALE_COOKIE,
+  DEFAULT_LANGUAGE,
+  LANGUAGES,
+  type LanguageCode,
+} from "./languages";
 
-export const LANGUAGES = [
-  { code: "en", label: "EN" },
-  { code: "bg", label: "BG" },
-] as const;
-
-export type LanguageCode = (typeof LANGUAGES)[number]["code"];
+import { DEFAULT_LANGUAGE } from "./languages";
 
 // Initialise once. This module is imported by the client-side provider, so the
 // guard protects against re-init during Fast Refresh / repeated imports.
