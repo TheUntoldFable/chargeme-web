@@ -74,6 +74,46 @@ body {
   animation: glow-pulse 4.5s ease-in-out infinite;
 }
 
+/* Calendly badge (bottom-right popup button) */
+@keyframes badge-enter {
+  from {
+    opacity: 0;
+    transform: translateY(24px) scale(0.8);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes badge-ring {
+  0% {
+    box-shadow: 0 0 0 0 rgba(255, 192, 19, 0.45);
+  }
+  70% {
+    box-shadow: 0 0 0 14px rgba(255, 192, 19, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(255, 192, 19, 0);
+  }
+}
+
+.calendly-badge-widget {
+  /* !important: Calendly's widget.css loads after ours and sets bottom: 15px */
+  bottom: 40px !important;
+  animation: badge-enter 0.6s cubic-bezier(0.22, 1, 0.36, 1) 0.8s both;
+}
+
+.calendly-badge-widget .calendly-badge-content {
+  animation: badge-ring 3s ease-out 2s infinite;
+  transition: transform 0.25s ease, filter 0.25s ease;
+}
+
+.calendly-badge-widget .calendly-badge-content:hover {
+  transform: translateY(-2px) scale(1.05);
+  filter: brightness(1.05);
+}
+
 /* Keep cursor-tilted phones on a stable GPU layer to avoid flicker */
 .gpu-stable {
   backface-visibility: hidden;
@@ -87,7 +127,9 @@ body {
 
   .animate-phone-float,
   .animate-phone-float-alt,
-  .animate-glow-pulse {
+  .animate-glow-pulse,
+  .calendly-badge-widget,
+  .calendly-badge-widget .calendly-badge-content {
     animation: none;
   }
 }

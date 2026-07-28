@@ -5,6 +5,7 @@
     "pricing": "PRICING",
     "faq": "FAQ",
     "demo": "DEMO",
+    "booking": "BOOK A MEETING",
     "languageAria": "Change language"
   },
   "showcase": {
@@ -160,6 +161,15 @@
   "demoSection": {
     "title": "Request a Demo"
   },
+  "contactSection": {
+    "titleLead": "Get in ",
+    "titleHighlight": "Touch",
+    "subtitle": "Request a demo or book a meeting directly with our team."
+  },
+  "bookingSection": {
+    "title": "Book a Meeting",
+    "subtitle": "Pick a day and time that suits you — the meeting goes straight into our calendar."
+  },
   "form": {
     "name": "Name",
     "restaurantName": "Restaurant Name",
@@ -186,7 +196,8 @@
       "howItWorks": "How It Works",
       "pricing": "Pricing",
       "faq": "FAQ",
-      "demo": "Demo"
+      "demo": "Demo",
+      "booking": "Book a Meeting"
     },
     "copyright": "© 2024 Charge me. All rights reserved."
   }

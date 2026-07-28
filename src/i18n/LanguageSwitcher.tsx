@@ -1,12 +1,20 @@
 "use client";
 
+import { usePathname, useRouter } from "next/navigation";
 import { useTranslation } from "react-i18next";
 
-import { LANGUAGES } from "./config";
+import { LANGUAGES, type LanguageCode } from "./config";
 
 export default function LanguageSwitcher() {
   const { t, i18n } = useTranslation();
+  const router = useRouter();
+  const pathname = usePathname();
   const current = i18n.resolvedLanguage ?? i18n.language;
+
+  const switchTo = (code: LanguageCode) => {
+    const rest = pathname.replace(/^\/(en|bg)(?=\/|$)/, "");
+    router.push(`/${code}${rest}`, { scroll: false });
+  };
 
   return (
     <div
@@ -20,7 +28,7 @@ export default function LanguageSwitcher() {
           <button
             key={lng.code}
             type="button"
-            onClick={() => i18n.changeLanguage(lng.code)}
+            onClick={() => switchTo(lng.code)}
             aria-pressed={active}
             className={`rounded-full px-2.5 py-1 text-[11px] font-semibold tracking-widest transition ${
               active
