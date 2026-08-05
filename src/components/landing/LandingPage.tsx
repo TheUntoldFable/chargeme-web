@@ -13,6 +13,7 @@ import { useTranslation } from "react-i18next";
 import ContactTabs from "./ContactTabs";
 import CalendlyBadge from "./CalendlyBadge";
 import LanguageSwitcher from "@/i18n/LanguageSwitcher";
+import { trackEvent } from "@/lib/analytics";
 
 type Feature = {
   title: string;
@@ -1068,7 +1069,13 @@ export default function Page() {
                     <path d="M4 8l8 5 8-5" />
                     <rect x="4" y="4" width="16" height="16" rx="2" />
                   </svg>
-                  chargem3info@gmail.com
+                  <a
+                    href="mailto:chargem3info@gmail.com"
+                    className="hover:text-yellow-400 transition"
+                    onClick={() => trackEvent("contact_click", { method: "email" })}
+                  >
+                    chargem3info@gmail.com
+                  </a>
                 </li>
                 <li className="flex items-center gap-2">
                   <svg
@@ -1080,7 +1087,13 @@ export default function Page() {
                   >
                     <path d="M22 16.92V19a2 2 0 0 1-2.18 2A19.79 19.79 0 0 1 3 5.18 2 2 0 0 1 5 3h2.09a2 2 0 0 1 2 1.72c.12.81.32 1.6.59 2.36a2 2 0 0 1-.45 2.11L8.09 10.91a16 16 0 0 0 5 5l1.72-1.14a2 2 0 0 1 2.11-.45c.76.27 1.55.47 2.36.59A2 2 0 0 1 22 16.92z" />
                   </svg>
-                  +359884011730
+                  <a
+                    href="tel:+359884011730"
+                    className="hover:text-yellow-400 transition"
+                    onClick={() => trackEvent("contact_click", { method: "phone" })}
+                  >
+                    +359 88 401 1730
+                  </a>
                 </li>
                 <li className="flex items-center gap-2">
                   <svg

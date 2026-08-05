@@ -1,8 +1,10 @@
 import type { Metadata } from "next";
+import Script from "next/script";
 import { Geist, Geist_Mono } from "next/font/google";
 import { notFound } from "next/navigation";
 import "../globals.css";
 import I18nProvider from "@/i18n/I18nProvider";
+import CookieBanner from "@/components/CookieBanner";
 import {
   LANGUAGES,
   isLanguageCode,
@@ -136,11 +138,35 @@ export default async function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <Script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-5LLL28LJE9"
+        />
+        <Script id="google-analytics">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            window.gtag = gtag;
+
+            gtag('consent', 'default', {
+              ad_storage: 'denied',
+              ad_user_data: 'denied',
+              ad_personalization: 'denied',
+              analytics_storage: 'denied'
+            });
+
+            gtag('js', new Date());
+            gtag('config', 'G-5LLL28LJE9');
+          `}
+        </Script>
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
-        <I18nProvider lang={lang}>{children}</I18nProvider>
+        <I18nProvider lang={lang}>
+          {children}
+          <CookieBanner />
+        </I18nProvider>
       </body>
     </html>
   );

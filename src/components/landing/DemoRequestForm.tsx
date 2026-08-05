@@ -3,6 +3,8 @@
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
 
+import { trackEvent } from "@/lib/analytics";
+
 function inputCls(hasError?: boolean) {
   return `w-full bg-[#0e0f11] border rounded-md px-4 py-2 text-sm text-white placeholder-gray-500 focus:outline-none ${
     hasError
@@ -102,6 +104,7 @@ export default function DemoRequestForm() {
       }
 
       setStatus("success");
+      trackEvent("generate_lead", { method: "demo_request_form" });
       setName("");
       setRestaurantName("");
       setRestaurantAddress("");
