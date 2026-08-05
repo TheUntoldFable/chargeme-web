@@ -200,5 +200,11 @@
       "booking": "Book a Meeting"
     },
     "copyright": "© 2024 Charge me. All rights reserved."
+  },
+  "cookieBanner": {
+    "title": "We value your privacy",
+    "body": "We use essential cookies to make the site work (for example, remembering your language). With your permission, we also use Google Analytics cookies to understand how visitors use the site. Our booking widget (Calendly) may set its own cookies when you use it to schedule a meeting.",
+    "accept": "Accept all",
+    "decline": "Essential only"
   }
 }
