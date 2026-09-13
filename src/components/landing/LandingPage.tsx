@@ -1147,6 +1147,14 @@ export default function Page() {
                     {t("footer.quickLinks.booking")}
                   </a>
                 </li>
+                <li>
+                  <Link
+                    href={`/${lang}/blog/what-is-a-qr-digital-menu`}
+                    className="hover:text-yellow-400"
+                  >
+                    {t("footer.quickLinks.blog")}
+                  </Link>
+                </li>
               </ul>
             </div>
           </div>
