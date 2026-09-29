@@ -1149,7 +1149,7 @@ export default function Page() {
                 </li>
                 <li>
                   <Link
-                    href={`/${lang}/blog/what-is-a-qr-digital-menu`}
+                    href={`/${lang}/blog`}
                     className="hover:text-yellow-400"
                   >
                     {t("footer.quickLinks.blog")}
