@@ -51,7 +51,7 @@ const post: BlogPost = {
           paragraphs: [
             "Before launch, have your team taste every dish and time how long each one takes at speed. A soft opening for friends, family or regulars is a low-risk way to find problems, such as a dish that takes too long or a description that confuses people.",
             "After launch, watch what actually sells. Ask staff and guests what they think, and review the menu at least once a season. Remove dishes that consistently underperform, and don't be afraid to change prices as supplier costs move.",
-            "A digital menu makes this loop easier. ChargeM3's analytics dashboard shows order trends and best-sellers, items can be added, edited or removed in minutes, and we offer product catalog setup guidance and staff training. The first month is free, with no credit card required.",
+            "A digital menu makes this loop easier. ChargeM3's analytics dashboard shows order trends and best-sellers, items can be added, edited or removed in minutes, and we offer product catalog setup guidance and staff training. The first 30 days are free, with no credit card required.",
           ],
         },
       ],
@@ -79,7 +79,7 @@ const post: BlogPost = {
         {
           question: "Can ChargeM3 help me set up my menu?",
           answer:
-            "Yes. ChargeM3 includes product catalog setup guidance and staff training, and you can add, edit or remove menu items in minutes. The first month is free with no credit card required, so you can build and test your menu before committing.",
+            "Yes. ChargeM3 includes product catalog setup guidance and staff training, and you can add, edit or remove menu items in minutes. The first 30 days are free with no credit card required, so you can build and test your menu before committing.",
         },
       ],
     },
@@ -129,7 +129,7 @@ const post: BlogPost = {
           paragraphs: [
             "Преди старта накарайте екипа си да опита всяко ястие и да засече колко време отнема при реално темпо. Пробно отваряне за приятели, семейство или редовни клиенти е нискорисков начин да откриете проблеми, като ястие, което се приготвя твърде дълго, или описание, което обърква.",
             "След старта следете какво наистина се продава. Питайте персонала и гостите какво мислят и преглеждайте менюто поне веднъж на сезон. Махайте ястията, които системно се представят слабо, и не се страхувайте да променяте цените, когато разходите при доставчиците се променят.",
-            "Дигиталното меню прави този цикъл по-лесен. Таблото с анализи на ChargeM3 показва тенденциите в поръчките и най-продаваните артикули, артикулите се добавят, редактират или премахват за минути, а ние предлагаме помощ при настройка на продуктовия каталог и обучение на персонала. Първият месец е безплатен, без нужда от кредитна карта.",
+            "Дигиталното меню прави този цикъл по-лесен. Таблото с анализи на ChargeM3 показва тенденциите в поръчките и най-продаваните артикули, артикулите се добавят, редактират или премахват за минути, а ние предлагаме помощ при настройка на продуктовия каталог и обучение на персонала. Първите 30 дни са безплатни, без нужда от кредитна карта.",
           ],
         },
       ],
@@ -157,7 +157,7 @@ const post: BlogPost = {
         {
           question: "Може ли ChargeM3 да ми помогне да настроя менюто си?",
           answer:
-            "Да. ChargeM3 включва помощ при настройка на продуктовия каталог и обучение на персонала, а артикулите в менюто се добавят, редактират или премахват за минути. Първият месец е безплатен и не се изисква кредитна карта, така че можете да изградите и тествате менюто си, преди да се обвържете.",
+            "Да. ChargeM3 включва помощ при настройка на продуктовия каталог и обучение на персонала, а артикулите в менюто се добавят, редактират или премахват за минути. Първите 30 дни са безплатни и не се изисква кредитна карта, така че можете да изградите и тествате менюто си, преди да се обвържете.",
         },
       ],
     },

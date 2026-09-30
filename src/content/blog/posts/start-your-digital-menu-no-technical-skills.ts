@@ -8,11 +8,11 @@ const post: BlogPost = {
     en: {
       title: "Start Your Digital Menu Journey: No Technical Skills Required",
       description:
-        "Start a digital QR menu without technical skills: what you need, how setup works, staff training, support and a free first month with no credit card.",
+        "Start a digital QR menu without technical skills: what you need, how setup works, staff training, support and a 30-day free trial with no credit card.",
       excerpt:
         "A warm, practical walkthrough for non-technical owners of what starting a digital QR menu really involves, from first setup to first service.",
       intro: [
-        "You do not need technical skills to start a digital menu. With ChargeM3 there is nothing to install: guests scan a QR code and the menu opens in their phone browser. Product catalog setup guidance, staff training and 24/7 support are all included, your first month is free, no credit card is required, and there is no installation fee.",
+        "You do not need technical skills to start a digital menu. With ChargeM3 there is nothing to install: guests scan a QR code and the menu opens in their phone browser. Product catalog setup guidance, staff training and 24/7 support are all included, your first 30 days are free, no credit card is required, and there is no installation fee.",
         "This article walks through what starting actually looks like, step by step, for an owner who has never built a website. We do not promise a specific setup time, because it depends on how large your menu is and how much you have ready. What we can promise is that you will not be left to work it out alone.",
       ],
       sections: [
@@ -54,7 +54,7 @@ const post: BlogPost = {
         {
           heading: "What it costs and how to try it without risk",
           paragraphs: [
-            "ChargeM3 costs €50 per month before VAT, with no installation fee. The first month is completely free and no credit card is required to start, so you can run real services and decide with real experience. Restaurants that sign a 2-year contract receive a 15% discount.",
+            "ChargeM3 costs €60 per month before VAT, with no installation fee. The first 30 days are completely free and no credit card is required to start, so you can run real services and decide with real experience. Restaurants that sign a 2-year contract receive a 15% discount.",
             "The plan includes unlimited connected workstations, staff training, guidance for the product catalog, 24/7 support, automatic updates and automatic cloud backup. If you have questions before starting, you can reach us at chargem3info@gmail.com or +359 88 401 1730.",
           ],
         },
@@ -73,7 +73,7 @@ const post: BlogPost = {
         {
           question: "How much does it cost to get started?",
           answer:
-            "Starting is free: the first month is completely free, no credit card is required, and there is no installation fee. After that the plan costs €50 per month before VAT, and a 2-year contract gets a 15% discount.",
+            "Starting is free: the first 30 days are completely free, no credit card is required, and there is no installation fee. After that the plan costs €60 per month before VAT, and a 2-year contract gets a 15% discount.",
         },
         {
           question: "What if something goes wrong during a busy evening?",
@@ -90,11 +90,11 @@ const post: BlogPost = {
     bg: {
       title: "Започнете вашето дигитално меню: не са нужни технически умения",
       description:
-        "Започнете дигитално меню с QR код без технически умения: какво ви трябва, как върви настройката, обучение на персонала, поддръжка и безплатен първи месец.",
+        "Започнете дигитално меню с QR код без технически умения: какво ви трябва, как върви настройката, обучение на персонала, поддръжка и 30-дневен безплатен период.",
       excerpt:
         "Топъл и практичен преглед за собственици без технически опит какво всъщност означава стартът на дигитално меню с QR код, от настройката до първата смяна.",
       intro: [
-        "Не са ви нужни технически умения, за да започнете дигитално меню. С ChargeM3 няма нищо за инсталиране: гостите сканират QR код и менюто се отваря в браузъра на телефона им. Помощта при настройката на продуктовия каталог, обучението на персонала и поддръжката 24/7 са включени, първият месец е безплатен, не се изисква кредитна карта и няма такса за инсталация.",
+        "Не са ви нужни технически умения, за да започнете дигитално меню. С ChargeM3 няма нищо за инсталиране: гостите сканират QR код и менюто се отваря в браузъра на телефона им. Помощта при настройката на продуктовия каталог, обучението на персонала и поддръжката 24/7 са включени, първите 30 дни са безплатни, не се изисква кредитна карта и няма такса за инсталация.",
         "Тази статия показва стъпка по стъпка как изглежда стартът на практика за собственик, който никога не е правил уебсайт. Не обещаваме конкретно време за настройка, защото то зависи от размера на менюто ви и от това колко неща имате подготвени. Обещаваме обаче, че няма да ви оставим да се оправяте сами.",
       ],
       sections: [
@@ -136,7 +136,7 @@ const post: BlogPost = {
         {
           heading: "Колко струва и как да го изпробвате без риск",
           paragraphs: [
-            "ChargeM3 струва 50 евро на месец без ДДС, без такса за инсталация. Първият месец е напълно безплатен и не се изисква кредитна карта, за да започнете, така че можете да проведете истински смени и да решите на базата на реален опит. Ресторанти, които сключат 2-годишен договор, получават 15% отстъпка.",
+            "ChargeM3 струва 60 евро на месец без ДДС, без такса за инсталация. Първите 30 дни са напълно безплатни и не се изисква кредитна карта, за да започнете, така че можете да проведете истински смени и да решите на базата на реален опит. Ресторанти, които сключат 2-годишен договор, получават 15% отстъпка.",
             "Планът включва неограничен брой свързани работни станции, обучение на персонала, помощ при настройката на продуктовия каталог, поддръжка 24/7, автоматични обновявания и автоматичен облачен бекъп. Ако имате въпроси преди да започнете, свържете се с нас на chargem3info@gmail.com или +359 88 401 1730.",
           ],
         },
@@ -155,7 +155,7 @@ const post: BlogPost = {
         {
           question: "Колко струва да започна?",
           answer:
-            "Стартът е безплатен: първият месец е напълно безплатен, не се изисква кредитна карта и няма такса за инсталация. След това планът струва 50 евро на месец без ДДС, а 2-годишният договор носи 15% отстъпка.",
+            "Стартът е безплатен: първите 30 дни са напълно безплатни, не се изисква кредитна карта и няма такса за инсталация. След това планът струва 60 евро на месец без ДДС, а 2-годишният договор носи 15% отстъпка.",
         },
         {
           question: "Какво да правя, ако нещо се обърка в натоварена вечер?",

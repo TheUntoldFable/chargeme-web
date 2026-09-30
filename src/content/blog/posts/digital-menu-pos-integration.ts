@@ -50,7 +50,7 @@ const post: BlogPost = {
           heading: "What to check before you commit",
           paragraphs: [
             "Test with real orders during a busy period, not only in a quiet demo. Ask for a trial, and ask to speak with a restaurant using the same POS. Read the contract for the length of the commitment and the exit terms, and keep a manual fallback so service continues if the link fails.",
-            "If you would like to talk through your situation with us, ChargeM3 includes unlimited connected workstations, remote access, a mobile app for monitoring and statistics, a mobile app for taking orders on the go, and 24/7 support. The first month is free with no credit card required. Whether it fits alongside your existing POS setup is best discussed directly, so email chargem3info@gmail.com or call +359 88 401 1730.",
+            "If you would like to talk through your situation with us, ChargeM3 includes unlimited connected workstations, remote access, a mobile app for monitoring and statistics, a mobile app for taking orders on the go, and 24/7 support. The first 30 days are free with no credit card required. Whether it fits alongside your existing POS setup is best discussed directly, so email chargem3info@gmail.com or call +359 88 401 1730.",
           ],
         },
       ],
@@ -127,7 +127,7 @@ const post: BlogPost = {
           heading: "Какво да проверите, преди да се обвържете",
           paragraphs: [
             "Тествайте с реални поръчки в натоварен период, а не само в спокойна демонстрация. Поискайте пробен период и възможност да говорите с ресторант, който ползва същата POS система. Прочетете договора за срока на обвързване и условията за напускане и запазете ръчен резервен вариант, за да продължи работата, ако връзката се скъса.",
-            "Ако искате да обсъдим вашата ситуация, ChargeM3 включва неограничен брой свързани работни станции, отдалечен достъп, мобилно приложение за наблюдение и статистика, мобилно приложение за приемане на поръчки в движение и поддръжка 24/7. Първият месец е безплатен и не се изисква кредитна карта. Дали пасва към съществуващата ви POS конфигурация, е най-добре да обсъдим директно, затова пишете на chargem3info@gmail.com или се обадете на +359 88 401 1730.",
+            "Ако искате да обсъдим вашата ситуация, ChargeM3 включва неограничен брой свързани работни станции, отдалечен достъп, мобилно приложение за наблюдение и статистика, мобилно приложение за приемане на поръчки в движение и поддръжка 24/7. Първите 30 дни са безплатни и не се изисква кредитна карта. Дали пасва към съществуващата ви POS конфигурация, е най-добре да обсъдим директно, затова пишете на chargem3info@gmail.com или се обадете на +359 88 401 1730.",
           ],
         },
       ],

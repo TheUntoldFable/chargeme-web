@@ -36,7 +36,7 @@ const post: BlogPost = {
           heading: "How it works day to day with ChargeM3",
           paragraphs: [
             "In ChargeM3, guests scan the QR code at the table, the menu opens in their browser, and they browse, order and pay from their phone. The restaurant manages the menu behind the scenes, so an edit made there is what the next guest sees.",
-            "The platform also includes a mobile app for monitoring and statistics and another for taking orders on the go, plus remote access. That means the person in charge can follow how the day is going without standing at a terminal. The plan costs €50 per month before VAT, with no installation fee, no credit card needed to start and the first month free.",
+            "The platform also includes a mobile app for monitoring and statistics and another for taking orders on the go, plus remote access. That means the person in charge can follow how the day is going without standing at a terminal. The plan costs €60 per month before VAT, with no installation fee, no credit card needed to start and the first 30 days free.",
             "Automatic updates and 24/7 support are included too, so the platform itself stays current without you managing software versions. Staff training is part of the plan, which helps new team members learn where to make the common edits.",
           ],
         },
@@ -81,7 +81,7 @@ const post: BlogPost = {
         {
           question: "How much does ChargeM3 cost?",
           answer:
-            "ChargeM3 costs €50 per month before VAT, with no installation fee. The first month is completely free, no credit card is required to start, and there is a 15% discount on a 2-year contract. Automatic updates, 24/7 support and staff training are included.",
+            "ChargeM3 costs €60 per month before VAT, with no installation fee. The first 30 days are completely free, no credit card is required to start, and there is a 15% discount on a 2-year contract. Automatic updates, 24/7 support and staff training are included.",
         },
       ],
     },
@@ -116,7 +116,7 @@ const post: BlogPost = {
           heading: "Как работи всекидневно с ChargeM3",
           paragraphs: [
             "В ChargeM3 гостите сканират QR кода на масата, менюто се отваря в браузъра им и те разглеждат, поръчват и плащат от телефона си. Ресторантът управлява менюто зад кулисите, така че направената там промяна е това, което вижда следващият гост.",
-            "Платформата включва още мобилно приложение за наблюдение и статистика и друго за приемане на поръчки в движение, както и отдалечен достъп. Така отговорният човек може да следи как върви денят, без да стои пред терминал. Планът струва 50 евро на месец без ДДС, без такса за инсталация, без нужда от кредитна карта за старт и с безплатен първи месец.",
+            "Платформата включва още мобилно приложение за наблюдение и статистика и друго за приемане на поръчки в движение, както и отдалечен достъп. Така отговорният човек може да следи как върви денят, без да стои пред терминал. Планът струва 60 евро на месец без ДДС, без такса за инсталация, без нужда от кредитна карта за старт и с безплатни първи 30 дни.",
             "Автоматичните обновявания и поддръжката 24/7 също са включени, така че самата платформа остава актуална, без да се грижите за версии на софтуера. Обучението на персонала е част от плана, което помага на новите колеги да научат къде се правят най-честите промени.",
           ],
         },
@@ -161,7 +161,7 @@ const post: BlogPost = {
         {
           question: "Колко струва ChargeM3?",
           answer:
-            "ChargeM3 струва 50 евро на месец без ДДС и без такса за инсталация. Първият месец е напълно безплатен, не е нужна кредитна карта за старт и има 15% отстъпка при 2-годишен договор. Автоматичните обновявания, поддръжката 24/7 и обучението на персонала са включени.",
+            "ChargeM3 струва 60 евро на месец без ДДС и без такса за инсталация. Първите 30 дни са напълно безплатни, не е нужна кредитна карта за старт и има 15% отстъпка при 2-годишен договор. Автоматичните обновявания, поддръжката 24/7 и обучението на персонала са включени.",
         },
       ],
     },

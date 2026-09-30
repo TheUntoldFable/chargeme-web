@@ -36,7 +36,7 @@ const post: BlogPost = {
           heading: "Cost: reprinting versus a monthly subscription",
           paragraphs: [
             "Printed menus look cheap because the cost is spread out: design, printing, lamination or binding, replacing worn copies, and a fresh print run each time prices or dishes change. Restaurants that update prices or seasonal items often may find this adds up, though the exact amount depends on your print quality and how frequently you change things.",
-            "A digital menu replaces most of that reprinting with a fixed subscription. ChargeM3, for example, costs €50 per month before VAT, with no installation fee and the first month completely free. It includes easy menu updates, automatic cloud backup and 24/7 support. Whether that is cheaper than paper depends on your own print costs, so add up a full year of printing and compare rather than assuming.",
+            "A digital menu replaces most of that reprinting with a fixed subscription. ChargeM3, for example, costs €60 per month before VAT, with no installation fee and the first 30 days completely free. It includes easy menu updates, automatic cloud backup and 24/7 support. Whether that is cheaper than paper depends on your own print costs, so add up a full year of printing and compare rather than assuming.",
             "Digital is not effort-free either. Someone has to keep the menu accurate, and staff need to be comfortable helping guests who struggle with the code.",
           ],
         },
@@ -53,7 +53,7 @@ const post: BlogPost = {
           paragraphs: [
             "Ask yourself four questions. How often does your menu change? Who are your guests, and how comfortable are they with phones? How reliable is the connection in your venue? And what atmosphere do you want to create? Frequent changes, tourists and busy service point toward digital; a fixed, refined menu and an older clientele point toward paper.",
             "Many restaurants do not pick just one. They use a digital menu as the always-current version and keep a small number of printed menus for guests who prefer paper, or for special occasions such as a tasting menu or a wine list. A separate article covers this hybrid approach in more detail.",
-            "If you want to try digital without committing, a free first month lets you run it alongside your existing paper menus and see what your guests actually do.",
+            "If you want to try digital without committing, a 30-day free trial lets you run it alongside your existing paper menus and see what your guests actually do.",
           ],
         },
       ],
@@ -71,7 +71,7 @@ const post: BlogPost = {
         {
           question: "Is a digital menu cheaper than printing menus?",
           answer:
-            "It depends on how much you currently spend on design, printing and reprinting. ChargeM3 costs €50 per month before VAT with no installation fee and a completely free first month, so compare that with your real yearly print costs.",
+            "It depends on how much you currently spend on design, printing and reprinting. ChargeM3 costs €60 per month before VAT with no installation fee and a completely free 30-day trial, so compare that with your real yearly print costs.",
         },
         {
           question: "What happens if a guest has no signal or the wifi is down?",
@@ -116,7 +116,7 @@ const post: BlogPost = {
           heading: "Разходи: препечатване срещу месечен абонамент",
           paragraphs: [
             "Печатните менюта изглеждат евтини, защото разходът е разпръснат: дизайн, печат, ламиниране или подвързване, подмяна на износените екземпляри и нов тираж всеки път, когато се променят цените или ястията. Ресторантите, които често обновяват цени или сезонни артикули, може да установят, че сумата натежава, макар точният размер да зависи от качеството на печата и от честотата на промените.",
-            "Дигиталното меню заменя голяма част от препечатването с фиксиран абонамент. ChargeM3, например, струва 50 евро на месец без ДДС, без такса за инсталация и с напълно безплатен първи месец. Включва лесни промени в менюто, автоматичен облачен бекъп и поддръжка 24/7. Дали това излиза по-евтино от хартията, зависи от вашите собствени разходи за печат, затова съберете печата за цяла година и сравнете, вместо да предполагате.",
+            "Дигиталното меню заменя голяма част от препечатването с фиксиран абонамент. ChargeM3, например, струва 60 евро на месец без ДДС, без такса за инсталация и с напълно безплатен 30-дневен период. Включва лесни промени в менюто, автоматичен облачен бекъп и поддръжка 24/7. Дали това излиза по-евтино от хартията, зависи от вашите собствени разходи за печат, затова съберете печата за цяла година и сравнете, вместо да предполагате.",
             "Дигиталното също не е без усилие. Някой трябва да поддържа менюто точно, а персоналът трябва да се чувства уверено, когато помага на гости, които се затрудняват с кода.",
           ],
         },
@@ -133,7 +133,7 @@ const post: BlogPost = {
           paragraphs: [
             "Задайте си четири въпроса. Колко често се променя менюто ви? Кои са гостите ви и колко им е удобно с телефоните? Колко надеждна е връзката във вашето заведение? И каква атмосфера искате да създадете? Чести промени, туристи и натоварена смяна насочват към дигиталното, а постоянно, изискано меню и по-възрастна клиентела насочват към хартията.",
             "Много ресторанти не избират само едното. Те ползват дигиталното меню като винаги актуалната версия и държат малко печатни менюта за гостите, които предпочитат хартия, или за специални поводи като дегустационно меню или винена карта. Друга статия разглежда този хибриден подход по-подробно.",
-            "Ако искате да опитате дигиталното, без да се обвързвате, безплатният първи месец ви позволява да го пуснете успоредно с наличните хартиени менюта и да видите какво реално правят гостите.",
+            "Ако искате да опитате дигиталното, без да се обвързвате, 30-дневният безплатен период ви позволява да го пуснете успоредно с наличните хартиени менюта и да видите какво реално правят гостите.",
           ],
         },
       ],
@@ -151,7 +151,7 @@ const post: BlogPost = {
         {
           question: "По-евтино ли е дигиталното меню от печатането на менюта?",
           answer:
-            "Зависи колко харчите сега за дизайн, печат и препечатване. ChargeM3 струва 50 евро на месец без ДДС, без такса за инсталация и с напълно безплатен първи месец, така че сравнете това с реалните си годишни разходи за печат.",
+            "Зависи колко харчите сега за дизайн, печат и препечатване. ChargeM3 струва 60 евро на месец без ДДС, без такса за инсталация и с напълно безплатен 30-дневен период, така че сравнете това с реалните си годишни разходи за печат.",
         },
         {
           question: "Какво става, ако гостът няма сигнал или wifi мрежата не работи?",

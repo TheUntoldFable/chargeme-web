@@ -58,8 +58,8 @@ const post: BlogPost = {
           heading: "Questions to ask any vendor before you sign",
           paragraphs: [
             "Take a short checklist into every conversation. What exactly does the monthly price include, and what costs extra? Is there an installation fee or a long contract? Can you try it before committing? What happens to your data if you leave?",
-            "Then ask about the things that are easy to overlook: what happens when a guest's connection is poor, how quickly you can reach a human when something breaks, and whether training is included. For reference, ChargeM3 costs €50 per month before VAT, with no installation fee, a completely free first month and no credit card needed to start.",
-            "Finally, try before you commit. A free first month is the best feature comparison available, because it shows how the system behaves in your real service.",
+            "Then ask about the things that are easy to overlook: what happens when a guest's connection is poor, how quickly you can reach a human when something breaks, and whether training is included. For reference, ChargeM3 costs €60 per month before VAT, with no installation fee, a completely free 30-day trial and no credit card needed to start.",
+            "Finally, try before you commit. A 30-day free trial is the best feature comparison available, because it shows how the system behaves in your real service.",
           ],
         },
       ],
@@ -87,7 +87,7 @@ const post: BlogPost = {
         {
           question: "What should a restaurant digital menu system cost?",
           answer:
-            "Prices vary by provider and by what is included, so compare the total, including setup, support and contract length. ChargeM3 costs €50 per month before VAT with no installation fee, a free first month and a 15% discount on a 2-year contract.",
+            "Prices vary by provider and by what is included, so compare the total, including setup, support and contract length. ChargeM3 costs €60 per month before VAT with no installation fee, a 30-day free trial and a 15% discount on a 2-year contract.",
         },
       ],
     },
@@ -144,8 +144,8 @@ const post: BlogPost = {
           heading: "Въпроси към всеки доставчик, преди да се подпишете",
           paragraphs: [
             "Носете кратък списък във всеки разговор. Какво точно включва месечната цена и какво се плаща допълнително? Има ли такса за инсталация или дълъг договор? Можете ли да опитате, преди да се обвържете? Какво става с данните ви, ако си тръгнете?",
-            "След това питайте за неща, които лесно се пропускат: какво се случва при слаба връзка на госта, колко бързо можете да се свържете с човек, когато нещо не работи, и включено ли е обучението. За сравнение, ChargeM3 струва 50 евро на месец без ДДС, без такса за инсталация, с напълно безплатен първи месец и без нужда от кредитна карта, за да започнете.",
-            "И накрая, опитайте, преди да се обвържете. Безплатният първи месец е най-доброто сравнение на функциите, защото показва как системата се държи във вашата реална работа.",
+            "След това питайте за неща, които лесно се пропускат: какво се случва при слаба връзка на госта, колко бързо можете да се свържете с човек, когато нещо не работи, и включено ли е обучението. За сравнение, ChargeM3 струва 60 евро на месец без ДДС, без такса за инсталация, с напълно безплатен 30-дневен период и без нужда от кредитна карта, за да започнете.",
+            "И накрая, опитайте, преди да се обвържете. 30-дневният безплатен период е най-доброто сравнение на функциите, защото показва как системата се държи във вашата реална работа.",
           ],
         },
       ],
@@ -173,7 +173,7 @@ const post: BlogPost = {
         {
           question: "Колко трябва да струва система за дигитално меню в ресторант?",
           answer:
-            "Цените се различават според доставчика и според това, което е включено, затова сравнявайте общата сума, включително настройка, поддръжка и срок на договора. ChargeM3 струва 50 евро на месец без ДДС, без такса за инсталация, с безплатен първи месец и 15% отстъпка при 2-годишен договор.",
+            "Цените се различават според доставчика и според това, което е включено, затова сравнявайте общата сума, включително настройка, поддръжка и срок на договора. ChargeM3 струва 60 евро на месец без ДДС, без такса за инсталация, с 30-дневен безплатен период и 15% отстъпка при 2-годишен договор.",
         },
       ],
     },

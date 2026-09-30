@@ -45,7 +45,7 @@ const post: BlogPost = {
           paragraphs: [
             "For the kitchen and the floor, the biggest gain is accuracy. With real-time availability, an item that has just run out can be marked as sold out instantly, so the guest never orders something you cannot serve. Easy menu updates mean you can add, edit or remove dishes in minutes, with no app-store resubmits.",
             "For the brand, custom branding lets you use your own colours, fonts and logo, so the menu feels like your restaurant rather than a generic template.",
-            "For the owner, an analytics dashboard shows order trends and best-sellers, which helps you decide what to promote, what to rewrite and what to drop. ChargeM3 offers all of this in one plan at €50 per month before VAT, with the first month free and no credit card needed to start.",
+            "For the owner, an analytics dashboard shows order trends and best-sellers, which helps you decide what to promote, what to rewrite and what to drop. ChargeM3 offers all of this in one plan at €60 per month before VAT, with the first 30 days free and no credit card needed to start.",
           ],
         },
         {
@@ -125,7 +125,7 @@ const post: BlogPost = {
           paragraphs: [
             "За кухнята и залата най-голямата полза е точността. С наличност в реално време артикул, който току-що е свършил, може да се отбележи като изчерпан мигновено, така че гостът никога не поръчва нещо, което не можете да сервирате. Лесните промени в менюто означават, че можете да добавяте, редактирате или премахвате ястия за минути, без повторно одобрение в магазин за приложения.",
             "За марката персонализираният бранд ви позволява да използвате собствени цветове, шрифтове и лого, така че менюто да изглежда като вашия ресторант, а не като безлико готово решение.",
-            "За собственика таблото с анализи показва тенденциите в поръчките и най-продаваните артикули, което помага да решите какво да рекламирате, какво да пренапишете и от какво да се откажете. ChargeM3 предлага всичко това в един план за 50 евро на месец без ДДС, с безплатен първи месец и без нужда от кредитна карта, за да започнете.",
+            "За собственика таблото с анализи показва тенденциите в поръчките и най-продаваните артикули, което помага да решите какво да рекламирате, какво да пренапишете и от какво да се откажете. ChargeM3 предлага всичко това в един план за 60 евро на месец без ДДС, с 30-дневен безплатен период и без нужда от кредитна карта, за да започнете.",
           ],
         },
         {

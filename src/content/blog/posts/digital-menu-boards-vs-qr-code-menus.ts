@@ -44,7 +44,7 @@ const post: BlogPost = {
           heading: "Cost and upkeep compared",
           paragraphs: [
             "A menu board carries hardware costs: screens, mounts, a player or computer behind them, electricity, and replacement if something breaks or is damaged. It also needs someone who knows how to update the content, and sometimes a separate subscription for the software. Prices depend heavily on screen size and quality, so compare real quotes rather than assuming.",
-            "A QR menu needs no display hardware. Your outlay is the printed codes and the subscription. ChargeM3 costs €50 per month before VAT, with no installation fee, no credit card needed to start and the first month completely free. The plan includes automatic updates, 24/7 support and staff training.",
+            "A QR menu needs no display hardware. Your outlay is the printed codes and the subscription. ChargeM3 costs €60 per month before VAT, with no installation fee, no credit card needed to start and the first 30 days completely free. The plan includes automatic updates, 24/7 support and staff training.",
             "Changing the menu is where the gap shows up daily. With ChargeM3 you can add, edit or remove items in minutes, and mark an item as sold out instantly through real-time availability. Whatever you choose, ask a board vendor exactly how long a price change takes to appear on the screen and who does it.",
           ],
         },
@@ -53,7 +53,7 @@ const post: BlogPost = {
           paragraphs: [
             "Start with your service style. If guests sit at tables and wait to be served, a QR menu is usually the better base. If they order at a counter and leave with their food, a board deserves a serious look. If your menu is large or changes often, lean towards QR, because it has no space limit and is quick to edit.",
             "Some venues do both. A bar might keep a wall display of featured drinks while tables use the QR menu for the full list. The risk is mismatch: two places to update means two chances for a price to be wrong. Decide which one is the source of truth and update the other straight after.",
-            "You can also test the QR route without buying anything. The first month of ChargeM3 is free and needs no card, so you can see how your own guests respond before committing.",
+            "You can also test the QR route without buying anything. The first 30 days of ChargeM3 are free and need no card, so you can see how your own guests respond before committing.",
           ],
         },
       ],
@@ -76,7 +76,7 @@ const post: BlogPost = {
         {
           question: "Which is cheaper to run, a menu board or a QR menu?",
           answer:
-            "A QR menu is usually cheaper to start because guests' phones act as the screens, so you buy no display hardware. ChargeM3 costs €50 per month before VAT with no installation fee and a free first month. Menu boards add costs for screens, mounting, power and content updates, which vary by size and quality.",
+            "A QR menu is usually cheaper to start because guests' phones act as the screens, so you buy no display hardware. ChargeM3 costs €60 per month before VAT with no installation fee and a free 30-day trial. Menu boards add costs for screens, mounting, power and content updates, which vary by size and quality.",
         },
         {
           question: "What about guests who do not have a smartphone?",
@@ -124,7 +124,7 @@ const post: BlogPost = {
           heading: "Разходи и поддръжка: сравнение",
           paragraphs: [
             "Екранът с меню носи разходи за техника: монитори, стойки, устройство или компютър зад тях, ток и подмяна при повреда. Нужен е и човек, който умее да обновява съдържанието, а понякога и отделен абонамент за софтуера. Цените зависят силно от размера и качеството на екрана, затова сравнявайте реални оферти, вместо да гадаете.",
-            "QR менюто не изисква екрани. Разходите ви са отпечатаните кодове и абонаментът. ChargeM3 струва 50 евро на месец без ДДС, без такса за инсталация, без нужда от кредитна карта за старт и с напълно безплатен първи месец. Планът включва автоматични обновявания, поддръжка 24/7 и обучение на персонала.",
+            "QR менюто не изисква екрани. Разходите ви са отпечатаните кодове и абонаментът. ChargeM3 струва 60 евро на месец без ДДС, без такса за инсталация, без нужда от кредитна карта за старт и с напълно безплатен 30-дневен период. Планът включва автоматични обновявания, поддръжка 24/7 и обучение на персонала.",
             "Всекидневната разлика личи при промените в менюто. С ChargeM3 добавяте, редактирате или премахвате артикули за минути и маркирате артикул като изчерпан мигновено чрез наличността в реално време. Който и вариант да изберете, питайте доставчика на екрани точно колко време отнема една промяна на цена и кой я прави.",
           ],
         },
@@ -133,7 +133,7 @@ const post: BlogPost = {
           paragraphs: [
             "Започнете от стила си на обслужване. Ако гостите седят на маса и ги обслужват там, QR менюто обикновено е по-добрата основа. Ако поръчват на гише и си тръгват с храната, екранът заслужава сериозно внимание. Ако менюто ви е голямо или често се променя, залагайте на QR, защото няма ограничение за място и се редактира бързо.",
             "Някои заведения ползват и двете. Барът може да държи на стената екран с препоръчани напитки, докато масите ползват QR менюто за пълния списък. Рискът е разминаване: две места за обновяване означават два шанса цената да е грешна. Решете кое е основният източник и обновявайте другото веднага след него.",
-            "QR варианта можете да изпробвате, без да купувате нищо. Първият месец с ChargeM3 е безплатен и не изисква карта, така че виждате как реагират вашите гости, преди да поемете ангажимент.",
+            "QR варианта можете да изпробвате, без да купувате нищо. Първите 30 дни с ChargeM3 са безплатни и не изискват карта, така че виждате как реагират вашите гости, преди да поемете ангажимент.",
           ],
         },
       ],
@@ -156,7 +156,7 @@ const post: BlogPost = {
         {
           question: "Кое е по-евтино за поддръжка: екран с меню или QR меню?",
           answer:
-            "QR менюто обикновено е по-евтино за начало, защото телефоните на гостите са екраните и не купувате дисплеи. ChargeM3 струва 50 евро на месец без ДДС, без такса за инсталация и с безплатен първи месец. Екраните добавят разходи за монитори, монтаж, ток и обновяване на съдържанието, които зависят от размера и качеството.",
+            "QR менюто обикновено е по-евтино за начало, защото телефоните на гостите са екраните и не купувате дисплеи. ChargeM3 струва 60 евро на месец без ДДС, без такса за инсталация и с безплатен 30-дневен период. Екраните добавят разходи за монитори, монтаж, ток и обновяване на съдържанието, които зависят от размера и качеството.",
         },
         {
           question: "Какво да правим с гости, които нямат смартфон?",

@@ -35,7 +35,7 @@ const post: BlogPost = {
           heading: "What a paid platform adds",
           paragraphs: [
             "A paid platform is built for running service, not just displaying a page. Guests can order and pay from their phones, staff can manage availability, and the owner gets reporting. You also get someone accountable: support, updates and backups are part of what you pay for.",
-            "ChargeM3 is one example, with a single plan at €50 per month before VAT. There is no installation fee, the first month is completely free, and no credit card is required to start. A 2-year contract earns a 15% discount.",
+            "ChargeM3 is one example, with a single plan at €60 per month before VAT. There is no installation fee, the first 30 days are completely free, and no credit card is required to start. A 2-year contract earns a 15% discount.",
             "The plan includes unlimited connected workstations, mobile apps for monitoring and for taking orders, automatic cloud backup, automatic updates, 24/7 support, staff training, product catalog setup guidance and remote access. On the guest side, it includes QR ordering with no app download, custom branding, multi-language support, and an analytics dashboard for order trends and best-sellers.",
           ],
         },
@@ -52,7 +52,7 @@ const post: BlogPost = {
           paragraphs: [
             "Start with what you need the menu to do. If it is only a digital display and your menu rarely changes, a free tool is likely enough. If you want ordering, quick availability changes, multiple staff devices, or data on what sells, a paid platform is more likely to save you time than it costs.",
             "Compare the monthly price with the hours of work it replaces, not with zero. A tool that removes manual order-taking or reprinting may be worth its fee, while one that adds features you never use is not.",
-            "You do not have to guess. A free first month, where offered, lets you try a platform under real conditions. And if you start with a free tool, you can move to a paid platform later, as long as you keep your dishes, descriptions and prices in a file you control.",
+            "You do not have to guess. A free 30-day trial, where offered, lets you try a platform under real conditions. And if you start with a free tool, you can move to a paid platform later, as long as you keep your dishes, descriptions and prices in a file you control.",
           ],
         },
       ],
@@ -70,12 +70,12 @@ const post: BlogPost = {
         {
           question: "How much does ChargeM3 cost?",
           answer:
-            "ChargeM3 costs €50 per month before VAT, with no installation fee. The first month is completely free and no credit card is needed to start. Restaurants that sign a 2-year contract get a 15% discount.",
+            "ChargeM3 costs €60 per month before VAT, with no installation fee. The first 30 days are completely free and no credit card is needed to start. Restaurants that sign a 2-year contract get a 15% discount.",
         },
         {
           question: "Can I try ChargeM3 before paying?",
           answer:
-            "Yes. The first month is completely free and no credit card is required to start. That gives you time to test the menu, ordering and dashboard in your own restaurant before you commit.",
+            "Yes. The first 30 days are completely free and no credit card is required to start. That gives you time to test the menu, ordering and dashboard in your own restaurant before you commit.",
         },
         {
           question: "Can I switch from a free menu tool to a paid one later?",
@@ -114,7 +114,7 @@ const post: BlogPost = {
           heading: "Какво добавя платената платформа",
           paragraphs: [
             "Платената платформа е създадена за работа по време на смяна, а не просто за показване на страница. Гостите могат да поръчват и плащат от телефоните си, персоналът управлява наличността, а собственикът получава отчети. Освен това имате към кого да се обърнете: поддръжката, обновленията и архивите са част от това, за което плащате.",
-            "ChargeM3 е един пример, с един-единствен план за 50 евро на месец без ДДС. Няма такса за инсталация, първият месец е напълно безплатен и не е нужна кредитна карта, за да започнете. При 2-годишен договор има 15% отстъпка.",
+            "ChargeM3 е един пример, с един-единствен план за 60 евро на месец без ДДС. Няма такса за инсталация, първите 30 дни са напълно безплатни и не е нужна кредитна карта, за да започнете. При 2-годишен договор има 15% отстъпка.",
             "Планът включва неограничен брой свързани работни станции, мобилни приложения за наблюдение и за приемане на поръчки, автоматичен облачен бекъп, автоматични обновявания, поддръжка 24/7, обучение на персонала, помощ при настройка на продуктовия каталог и отдалечен достъп. От страна на госта има поръчване чрез QR код без изтегляне на приложение, персонализиран бранд, поддръжка на много езици и табло с анализи за тенденциите в поръчките и най-продаваните артикули.",
           ],
         },
@@ -131,7 +131,7 @@ const post: BlogPost = {
           paragraphs: [
             "Започнете от това, което искате менюто да прави. Ако е просто дигитална витрина и менюто рядко се променя, безплатният инструмент вероятно е достатъчен. Ако искате поръчки, бързи промени в наличността, няколко устройства за персонала или данни за това какво се продава, платената платформа по-вероятно ще ви спести повече време, отколкото струва.",
             "Сравнявайте месечната цена с часовете работа, които замества, а не с нулата. Инструмент, който премахва ръчното приемане на поръчки или препечатването, може да си струва таксата, докато такъв с функции, които никога не ползвате, не си струва.",
-            "Не е нужно да гадаете. Безплатен първи месец, когато се предлага, ви позволява да изпробвате платформата в реални условия. А ако започнете с безплатен инструмент, можете да преминете към платена платформа по-късно, стига да пазите ястията, описанията и цените си във файл, който контролирате.",
+            "Не е нужно да гадаете. Безплатен 30-дневен период, когато се предлага, ви позволява да изпробвате платформата в реални условия. А ако започнете с безплатен инструмент, можете да преминете към платена платформа по-късно, стига да пазите ястията, описанията и цените си във файл, който контролирате.",
           ],
         },
       ],
@@ -149,12 +149,12 @@ const post: BlogPost = {
         {
           question: "Колко струва ChargeM3?",
           answer:
-            "ChargeM3 струва 50 евро на месец без ДДС, без такса за инсталация. Първият месец е напълно безплатен и не е нужна кредитна карта, за да започнете. Ресторантите, които сключат 2-годишен договор, получават 15% отстъпка.",
+            "ChargeM3 струва 60 евро на месец без ДДС, без такса за инсталация. Първите 30 дни са напълно безплатни и не е нужна кредитна карта, за да започнете. Ресторантите, които сключат 2-годишен договор, получават 15% отстъпка.",
         },
         {
           question: "Мога ли да изпробвам ChargeM3, преди да платя?",
           answer:
-            "Да. Първият месец е напълно безплатен и не е необходима кредитна карта, за да започнете. Така имате време да изпробвате менюто, поръчките и таблото във вашия собствен ресторант, преди да се ангажирате.",
+            "Да. Първите 30 дни са напълно безплатни и не е необходима кредитна карта, за да започнете. Така имате време да изпробвате менюто, поръчките и таблото във вашия собствен ресторант, преди да се ангажирате.",
         },
         {
           question: "Мога ли по-късно да премина от безплатен инструмент към платен?",

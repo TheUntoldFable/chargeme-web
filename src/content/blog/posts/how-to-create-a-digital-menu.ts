@@ -13,7 +13,7 @@ const post: BlogPost = {
         "A step-by-step walkthrough for building your first digital menu, from preparing your dishes and prices to placing QR codes on your tables.",
       intro: [
         "You can create a digital menu for your restaurant in a handful of steps: gather your current menu, organize it into clear categories, add names, descriptions and prices to a digital menu platform, apply your branding, and put a QR code on every table. When the platform takes care of the hosting, the technical setup can take minutes. Most of the real work is deciding what your menu should say and how it should be organized.",
-        "This guide walks through each step in order, from preparing your content to training your team and keeping the menu current. It also explains where ChargeM3 fits in, since the first month is free and no credit card is needed to start.",
+        "This guide walks through each step in order, from preparing your content to training your team and keeping the menu current. It also explains where ChargeM3 fits in, since the first 30 days are free and no credit card is needed to start.",
       ],
       sections: [
         {
@@ -77,7 +77,7 @@ const post: BlogPost = {
         {
           question: "How much does it cost to start with ChargeM3?",
           answer:
-            "ChargeM3 costs €50 per month before VAT, with no installation fee. The first month is completely free and no credit card is required to start. Signing a 2-year contract gives a 15% discount on the monthly price.",
+            "ChargeM3 costs €60 per month before VAT, with no installation fee. The first 30 days are completely free and no credit card is required to start. Signing a 2-year contract gives a 15% discount on the monthly price.",
         },
         {
           question: "Can I change my digital menu after it goes live?",
@@ -94,7 +94,7 @@ const post: BlogPost = {
         "Стъпка по стъпка към първото ви дигитално меню, от подготовката на ястията и цените до поставянето на QR кодове по масите.",
       intro: [
         "Можете да създадете дигитално меню за ресторанта си в няколко стъпки: съберете сегашното меню, подредете го в ясни категории, добавете имена, описания и цени в платформа за дигитално меню, приложете брандинга си и поставете QR код на всяка маса. Когато платформата поема хостинга, техническата настройка може да отнеме минути. По-голямата част от реалната работа е да решите какво да казва менюто ви и как да бъде подредено.",
-        "Това ръководство преминава през всяка стъпка по ред, от подготовката на съдържанието до обучението на екипа и поддържането на менюто актуално. Обяснява и къде е мястото на ChargeM3: първият месец е безплатен и не е нужна кредитна карта, за да започнете.",
+        "Това ръководство преминава през всяка стъпка по ред, от подготовката на съдържанието до обучението на екипа и поддържането на менюто актуално. Обяснява и къде е мястото на ChargeM3: първите 30 дни са безплатни и не е нужна кредитна карта, за да започнете.",
       ],
       sections: [
         {
@@ -158,7 +158,7 @@ const post: BlogPost = {
         {
           question: "Колко струва стартирането с ChargeM3?",
           answer:
-            "ChargeM3 струва 50 евро на месец без ДДС, без такса за инсталация. Първият месец е напълно безплатен и не е нужна кредитна карта, за да започнете. При 2-годишен договор има 15% отстъпка от месечната цена.",
+            "ChargeM3 струва 60 евро на месец без ДДС, без такса за инсталация. Първите 30 дни са напълно безплатни и не е нужна кредитна карта, за да започнете. При 2-годишен договор има 15% отстъпка от месечната цена.",
         },
         {
           question: "Мога ли да променям дигиталното меню, след като е пуснато?",

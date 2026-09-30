@@ -52,7 +52,7 @@ const post: BlogPost = {
           paragraphs: [
             "Compare total cost and not the headline price. Ask about setup or installation fees, per-device or per-workstation charges, extra fees for more locations or languages, any transaction fees, and what happens to the price after an introductory period.",
             "Ask about the contract too: the minimum term, the notice period, discounts for longer commitments, and what happens to your data when you leave. A free trial that needs no credit card lets you test without pressure.",
-            "For reference, ChargeM3 publishes a single price: €50 per month before VAT, no installation fee, unlimited connected workstations, the first month completely free with no credit card required, and a 15% discount on a 2-year contract. Whichever provider you consider, ask for the same clarity.",
+            "For reference, ChargeM3 publishes a single price: €60 per month before VAT, no installation fee, unlimited connected workstations, the first 30 days completely free with no credit card required, and a 15% discount on a 2-year contract. Whichever provider you consider, ask for the same clarity.",
           ],
         },
         {
@@ -73,7 +73,7 @@ const post: BlogPost = {
         {
           question: "How much do digital menu systems cost?",
           answer:
-            "Prices vary by provider and by what is included, so compare the total cost: subscription, setup fees, per-device charges and contract terms. For reference, ChargeM3 costs €50 per month before VAT, with no installation fee and a completely free first month.",
+            "Prices vary by provider and by what is included, so compare the total cost: subscription, setup fees, per-device charges and contract terms. For reference, ChargeM3 costs €60 per month before VAT, with no installation fee and a completely free 30-day trial.",
         },
         {
           question: "Do I need a digital menu system that integrates with my POS?",
@@ -88,7 +88,7 @@ const post: BlogPost = {
         {
           question: "Can I try a digital menu system before paying?",
           answer:
-            "Ask every vendor. ChargeM3 offers the first month completely free with no credit card required. A trial in your real dining room tells you more than any demo.",
+            "Ask every vendor. ChargeM3 offers a completely free 30-day trial with no credit card required. A trial in your real dining room tells you more than any demo.",
         },
       ],
     },
@@ -139,7 +139,7 @@ const post: BlogPost = {
           paragraphs: [
             "Сравнявайте общата цена, а не рекламната. Питайте за такси за настройка или инсталация, такси на устройство или на работна станция, допълнителни такси за още обекти или езици, евентуални такси за транзакции и какво се случва с цената след въвеждащия период.",
             "Питайте и за договора: минималния срок, срока на предизвестие, отстъпките при по-дълъг ангажимент и какво става с данните ви, когато си тръгнете. Безплатен пробен период без кредитна карта ви позволява да тествате без натиск.",
-            "За ориентир, ChargeM3 обявява една ясна цена: 50 евро на месец без ДДС, без такса за инсталация, неограничен брой свързани работни станции, напълно безплатен първи месец без нужда от кредитна карта и 15% отстъпка при 2-годишен договор. Към който и доставчик да се насочите, изисквайте същата яснота.",
+            "За ориентир, ChargeM3 обявява една ясна цена: 60 евро на месец без ДДС, без такса за инсталация, неограничен брой свързани работни станции, напълно безплатни първи 30 дни без нужда от кредитна карта и 15% отстъпка при 2-годишен договор. Към който и доставчик да се насочите, изисквайте същата яснота.",
           ],
         },
         {
@@ -160,7 +160,7 @@ const post: BlogPost = {
         {
           question: "Колко струват системите за дигитално меню?",
           answer:
-            "Цените се различават според доставчика и според включеното, затова сравнявайте общата цена: абонамент, такси за настройка, такси на устройство и условия на договора. За ориентир, ChargeM3 струва 50 евро на месец без ДДС, без такса за инсталация и с напълно безплатен първи месец.",
+            "Цените се различават според доставчика и според включеното, затова сравнявайте общата цена: абонамент, такси за настройка, такси на устройство и условия на договора. За ориентир, ChargeM3 струва 60 евро на месец без ДДС, без такса за инсталация и с напълно безплатен 30-дневен период.",
         },
         {
           question: "Нужна ли ми е система за дигитално меню, която се интегрира с моя POS?",
@@ -175,7 +175,7 @@ const post: BlogPost = {
         {
           question: "Мога ли да пробвам система за дигитално меню, преди да платя?",
           answer:
-            "Питайте всеки доставчик. ChargeM3 предлага напълно безплатен първи месец без нужда от кредитна карта. Пробният период във вашата реална зала ви казва повече от всяка демонстрация.",
+            "Питайте всеки доставчик. ChargeM3 предлага напълно безплатен 30-дневен период без нужда от кредитна карта. Пробният период във вашата реална зала ви казва повече от всяка демонстрация.",
         },
       ],
     },

@@ -61,7 +61,7 @@ const post: BlogPost = {
           paragraphs: [
             "The only reliable design review is on a real phone at a real table. Sit where your guests sit, in the light they will have: the dim evening dining room, the bright terrace, the corner table with a candle. Look for glare, low contrast and text that is too small.",
             "Hand the phone to someone who has never seen the menu, ideally someone older, and watch without helping. Every hesitation shows a design problem. Try an older phone as well, because not every guest carries a new one.",
-            "Then fix, republish and test again. Since ChargeM3 lets you add, edit or remove items in minutes, improvement is a habit rather than a project. It also helps that the plan is €50 per month before VAT with the first month free, so you can refine while you learn.",
+            "Then fix, republish and test again. Since ChargeM3 lets you add, edit or remove items in minutes, improvement is a habit rather than a project. It also helps that the plan is €60 per month before VAT with the first 30 days free, so you can refine while you learn.",
           ],
         },
       ],
@@ -149,7 +149,7 @@ const post: BlogPost = {
           paragraphs: [
             "Единственият надежден преглед на дизайна е на истински телефон на истинска маса. Седнете там, където седят гостите, при светлината, която те имат: приглушената вечерна зала, ярката тераса, масата в ъгъла със свещ. Търсете отблясъци, слаб контраст и прекалено ситен текст.",
             "Подайте телефона на човек, който никога не е виждал менюто, по възможност по-възрастен, и наблюдавайте, без да помагате. Всяко колебание показва проблем в дизайна. Опитайте и със стар телефон, защото не всеки гост носи нов.",
-            "После поправете, публикувайте отново и тествайте пак. Тъй като ChargeM3 ви позволява да добавяте, редактирате и премахвате артикули за минути, подобряването е навик, а не проект. Помага и това, че планът е 50 евро на месец без ДДС с безплатен първи месец, така че можете да усъвършенствате менюто, докато учите.",
+            "После поправете, публикувайте отново и тествайте пак. Тъй като ChargeM3 ви позволява да добавяте, редактирате и премахвате артикули за минути, подобряването е навик, а не проект. Помага и това, че планът е 60 евро на месец без ДДС с безплатни първи 30 дни, така че можете да усъвършенствате менюто, докато учите.",
           ],
         },
       ],

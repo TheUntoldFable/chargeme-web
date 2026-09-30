@@ -78,7 +78,7 @@ const post: BlogPost = {
         {
           question: "Does ChargeM3 include staff training and support?",
           answer:
-            "Yes. Staff training and 24/7 support are both included in the €50 per month plan (before VAT). The plan also includes guidance on setting up your product catalog.",
+            "Yes. Staff training and 24/7 support are both included in the €60 per month plan (before VAT). The plan also includes guidance on setting up your product catalog.",
         },
         {
           question: "What should staff do when a guest refuses to scan the QR code?",
@@ -165,7 +165,7 @@ const post: BlogPost = {
         {
           question: "Включва ли ChargeM3 обучение на персонала и поддръжка?",
           answer:
-            "Да. Обучението на персонала и поддръжката 24/7 са включени в плана от 50 евро на месец (без ДДС). Планът включва и помощ при настройка на продуктовия каталог.",
+            "Да. Обучението на персонала и поддръжката 24/7 са включени в плана от 60 евро на месец (без ДДС). Планът включва и помощ при настройка на продуктовия каталог.",
         },
         {
           question: "Какво да прави персоналът, когато гост откаже да сканира QR кода?",

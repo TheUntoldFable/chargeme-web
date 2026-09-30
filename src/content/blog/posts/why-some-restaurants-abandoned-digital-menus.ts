@@ -54,7 +54,7 @@ const post: BlogPost = {
             "They do the unglamorous things well. They test the menu on an ordinary phone, on an ordinary connection, before launch. They keep photos light and check that every table's code scans quickly. They also keep paper available for guests who want it, without making anyone feel awkward for asking.",
             "They assign an owner: one person responsible for keeping items, prices and availability current, updating as things change rather than in a monthly batch. Marking a dish as sold out the moment it runs out prevents the awkward apology at the table.",
             "They train staff before opening day, explain why the change is happening, and treat the first weeks as an experiment: watching what guests actually do, asking staff what frustrates them, and adjusting.",
-            "If you are evaluating a provider, ask about training, support hours and how fast you can edit the menu. ChargeM3, for example, includes staff training and 24/7 support, lets you edit items in minutes and mark them sold out instantly, and the first month is free, so you can test the fit in your own room. The same questions apply to any vendor.",
+            "If you are evaluating a provider, ask about training, support hours and how fast you can edit the menu. ChargeM3, for example, includes staff training and 24/7 support, lets you edit items in minutes and mark them sold out instantly, and the first 30 days are free, so you can test the fit in your own room. The same questions apply to any vendor.",
           ],
         },
       ],
@@ -82,7 +82,7 @@ const post: BlogPost = {
         {
           question: "How can I test whether a digital menu suits my restaurant?",
           answer:
-            "Start with a trial period, try it at a few tables or during quieter shifts, and ask both guests and staff for honest feedback. With ChargeM3 the first month is free and no credit card is required, so you can judge the fit before committing.",
+            "Start with a trial period, try it at a few tables or during quieter shifts, and ask both guests and staff for honest feedback. With ChargeM3 the first 30 days are free and no credit card is required, so you can judge the fit before committing.",
         },
       ],
     },
@@ -135,7 +135,7 @@ const post: BlogPost = {
             "Те вършат неефектните неща добре. Тестват менюто на обикновен телефон и обикновена връзка преди старта. Държат снимките леки и проверяват дали кодът на всяка маса се сканира бързо. Пазят и хартиени менюта за гостите, които ги искат, без никой да се чувства неловко, че пита.",
             "Определят отговорник: един човек, който поддържа артикулите, цените и наличностите актуални и ги обновява при всяка промяна, а не веднъж месечно. Отбелязването на ястие като изчерпано в момента, в който свърши, спестява неловкото извинение на масата.",
             "Обучават персонала преди първия ден, обясняват защо се прави промяната и гледат на първите седмици като на експеримент: наблюдават какво правят гостите в действителност, питат екипа какво го дразни и коригират.",
-            "Ако избирате доставчик, питайте за обучение, часове на поддръжка и колко бързо можете да променяте менюто. ChargeM3 например включва обучение на персонала и поддръжка 24/7, позволява да редактирате артикули за минути и да ги отбелязвате като изчерпани мигновено, а първият месец е безплатен, така че можете да проверите пригодността в собствената си зала. Същите въпроси важат за всеки доставчик.",
+            "Ако избирате доставчик, питайте за обучение, часове на поддръжка и колко бързо можете да променяте менюто. ChargeM3 например включва обучение на персонала и поддръжка 24/7, позволява да редактирате артикули за минути и да ги отбелязвате като изчерпани мигновено, а първите 30 дни са безплатни, така че можете да проверите пригодността в собствената си зала. Същите въпроси важат за всеки доставчик.",
           ],
         },
       ],
@@ -163,7 +163,7 @@ const post: BlogPost = {
         {
           question: "Как да проверя дали дигиталното меню е подходящо за моя ресторант?",
           answer:
-            "Започнете с пробен период, изпробвайте го на няколко маси или в по-спокойни смени и поискайте честно мнение и от гостите, и от персонала. При ChargeM3 първият месец е безплатен и не се изисква кредитна карта, така че можете да прецените пригодността, преди да се обвържете.",
+            "Започнете с пробен период, изпробвайте го на няколко маси или в по-спокойни смени и поискайте честно мнение и от гостите, и от персонала. При ChargeM3 първите 30 дни са безплатни и не се изисква кредитна карта, така че можете да прецените пригодността, преди да се обвържете.",
         },
       ],
     },

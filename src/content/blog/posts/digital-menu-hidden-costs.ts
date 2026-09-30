@@ -51,7 +51,7 @@ const post: BlogPost = {
           heading: "Questions to ask any provider, and how ChargeM3 answers them",
           paragraphs: [
             "A short list is enough. What is the total monthly cost for my number of locations and devices? Is there an installation or setup fee? Are training and support included, and at what hours? How long is the contract, and what does leaving involve? Who supplies the QR codes? Which payment provider handles card payments, and what does it charge? Which hardware do I need?",
-            "For transparency, here is ChargeM3's side. The price is €50 per month before VAT, with no installation fee and the first month completely free, with no credit card required to start. Unlimited connected workstations are included at no extra cost, along with training, 24/7 support, automatic updates, cloud backup and product catalog setup guidance. A 2-year contract earns a 15% discount, which means a longer commitment, so it is worth using the free first month to test before deciding.",
+            "For transparency, here is ChargeM3's side. The price is €60 per month before VAT, with no installation fee and the first 30 days completely free, with no credit card required to start. Unlimited connected workstations are included at no extra cost, along with training, 24/7 support, automatic updates, cloud backup and product catalog setup guidance. A 2-year contract earns a 15% discount, which means a longer commitment, so it is worth using the free 30-day trial to test before deciding.",
             "What this article cannot cover are the costs that depend on your own setup: your QR stands, devices, wifi, photography and any fees your payment provider charges. If you run more than one location, ask us how pricing works for you. Ask us or any other provider directly, and compare offers on the total cost of running the menu, not just the monthly line.",
           ],
         },
@@ -65,7 +65,7 @@ const post: BlogPost = {
         {
           question: "Does a QR digital menu have setup or installation fees?",
           answer:
-            "It depends on the provider, so ask. ChargeM3 has no installation fee and the first month is completely free, with no credit card required. Even so, budget your own time for entering dishes and prices, plus any physical QR stands or cards.",
+            "It depends on the provider, so ask. ChargeM3 has no installation fee and the first 30 days are completely free, with no credit card required. Even so, budget your own time for entering dishes and prices, plus any physical QR stands or cards.",
         },
         {
           question: "Who pays payment processing fees when guests pay from their phone?",
@@ -75,7 +75,7 @@ const post: BlogPost = {
         {
           question: "How much does ChargeM3 cost?",
           answer:
-            "€50 per month before VAT, with no installation fee and the first month completely free, no credit card required. Unlimited connected workstations, training and support are included at no extra cost, and a 2-year contract gets a 15% discount.",
+            "€60 per month before VAT, with no installation fee and the first 30 days completely free, no credit card required. Unlimited connected workstations, training and support are included at no extra cost, and a 2-year contract gets a 15% discount.",
         },
         {
           question: "How can I avoid being locked in by a digital menu provider?",
@@ -130,7 +130,7 @@ const post: BlogPost = {
           heading: "Въпроси към всеки доставчик и как отговаря ChargeM3",
           paragraphs: [
             "Достатъчен е кратък списък. Каква е общата месечна цена за моя брой обекти и устройства? Има ли такса за инсталация или настройка? Включени ли са обучение и поддръжка и в какви часове? Колко дълъг е договорът и какво включва напускането? Кой осигурява QR кодовете? Кой платежен доставчик обработва картовите плащания и колко удържа? Какъв хардуер ми трябва?",
-            "За прозрачност – ето нашата страна. Цената е 50 евро на месец без ДДС, без такса за инсталация и с напълно безплатен първи месец, без нужда от кредитна карта, за да започнете. Неограничен брой свързани работни станции са включени без допълнително заплащане, заедно с обучение, поддръжка 24/7, автоматични обновявания, облачен бекъп и помощ при настройка на продуктовия каталог. 2-годишният договор носи 15% отстъпка, което означава по-дълъг ангажимент, затова си струва да използвате безплатния първи месец, за да изпробвате, преди да решите.",
+            "За прозрачност – ето нашата страна. Цената е 60 евро на месец без ДДС, без такса за инсталация и с напълно безплатни първи 30 дни, без нужда от кредитна карта, за да започнете. Неограничен брой свързани работни станции са включени без допълнително заплащане, заедно с обучение, поддръжка 24/7, автоматични обновявания, облачен бекъп и помощ при настройка на продуктовия каталог. 2-годишният договор носи 15% отстъпка, което означава по-дълъг ангажимент, затова си струва да използвате 30-дневния безплатен период, за да изпробвате, преди да решите.",
             "Тази статия не може да обхване разходите, които зависят от вашата собствена конфигурация: вашите QR стойки, устройства, Wi-Fi, снимки и таксите, които удържа вашият платежен доставчик. Ако управлявате повече от един обект, питайте ни как работи ценообразуването за вас. Питайте нас или всеки друг доставчик директно и сравнявайте офертите по общата цена за поддържане на менюто, а не само по месечния ред.",
           ],
         },
@@ -144,7 +144,7 @@ const post: BlogPost = {
         {
           question: "Има ли дигиталното меню с QR код такси за настройка или инсталация?",
           answer:
-            "Зависи от доставчика, затова питайте. ChargeM3 няма такса за инсталация, а първият месец е напълно безплатен и не се изисква кредитна карта. И все пак предвидете собственото си време за въвеждане на ястия и цени, както и физическите QR стойки или картички.",
+            "Зависи от доставчика, затова питайте. ChargeM3 няма такса за инсталация, а първите 30 дни са напълно безплатни и не се изисква кредитна карта. И все пак предвидете собственото си време за въвеждане на ястия и цени, както и физическите QR стойки или картички.",
         },
         {
           question: "Кой плаща таксите за обработка на плащания, когато гостите плащат от телефона си?",
@@ -154,7 +154,7 @@ const post: BlogPost = {
         {
           question: "Колко струва ChargeM3?",
           answer:
-            "50 евро на месец без ДДС, без такса за инсталация и с напълно безплатен първи месец, без нужда от кредитна карта. Неограничен брой свързани работни станции, обучение и поддръжка са включени без допълнително заплащане, а 2-годишният договор носи 15% отстъпка.",
+            "60 евро на месец без ДДС, без такса за инсталация и с напълно безплатни първи 30 дни, без нужда от кредитна карта. Неограничен брой свързани работни станции, обучение и поддръжка са включени без допълнително заплащане, а 2-годишният договор носи 15% отстъпка.",
         },
         {
           question: "Как да избегна обвързване с доставчик на дигитално меню?",

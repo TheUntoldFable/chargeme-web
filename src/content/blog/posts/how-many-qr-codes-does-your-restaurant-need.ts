@@ -56,7 +56,7 @@ const post: BlogPost = {
           paragraphs: [
             "Count the tables, then add the bar sections, the terrace, the takeaway counter and the entrance. Add a few spares for replacements. That total is your print run, and it is usually smaller than owners fear.",
             "If you are unsure, pilot one section first, watch how guests behave for a week and adjust before printing for the whole room.",
-            "ChargeM3 is a single plan at €50 per month before VAT, with no installation fee and the first month free. It includes unlimited connected workstations, staff training and guidance on setting up your product catalog, so the team that will live with the codes is prepared before the first guest scans one.",
+            "ChargeM3 is a single plan at €60 per month before VAT, with no installation fee and a 30-day free trial. It includes unlimited connected workstations, staff training and guidance on setting up your product catalog, so the team that will live with the codes is prepared before the first guest scans one.",
           ],
         },
       ],
@@ -139,7 +139,7 @@ const post: BlogPost = {
           paragraphs: [
             "Пребройте масите, след това добавете зоните на бара, терасата, гишето за вземане и входа. Прибавете няколко резервни за подмяна. Този сбор е тиражът ви за печат и обикновено е по-малък, отколкото собствениците се страхуват.",
             "Ако се колебаете, започнете с една зона, наблюдавайте как се държат гостите през седмица и коригирайте, преди да печатате за цялата зала. Персоналът бързо ще ви каже къде кодовете трудно се намират.",
-            "ChargeM3 е един план за 50 евро на месец без ДДС, без такса за инсталация и с безплатен първи месец. Включва неограничен брой свързани работни станции, обучение на персонала и помощ при настройка на продуктовия каталог, така че екипът, който ще работи с кодовете, е подготвен още преди първият гост да сканира такъв.",
+            "ChargeM3 е един план за 60 евро на месец без ДДС, без такса за инсталация и с 30-дневен безплатен период. Включва неограничен брой свързани работни станции, обучение на персонала и помощ при настройка на продуктовия каталог, така че екипът, който ще работи с кодовете, е подготвен още преди първият гост да сканира такъв.",
           ],
         },
       ],

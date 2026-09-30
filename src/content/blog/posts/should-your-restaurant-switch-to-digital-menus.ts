@@ -53,7 +53,7 @@ const post: BlogPost = {
           paragraphs: [
             "You do not need to switch everything on the same day. Start with one part of the room or one service, such as lunch, and learn from it. Keep printed menus at the host stand and hand them out on request.",
             "Make the QR code easy to find and add a short line of instruction. Brief your team so everyone gives the same answer when a guest asks how it works. After a few weeks, review what you learned and adjust.",
-            "ChargeM3's first month is free, with no credit card required, so you can run this kind of test in your own restaurant before committing to anything. The plan is €50 per month before VAT, with no installation fee.",
+            "ChargeM3 offers a 30-day free trial, with no credit card required, so you can run this kind of test in your own restaurant before committing to anything. The plan is €60 per month before VAT, with no installation fee.",
           ],
         },
       ],
@@ -81,7 +81,7 @@ const post: BlogPost = {
         {
           question: "How can I test digital menus without a big commitment?",
           answer:
-            "Start with part of your restaurant or a single service and collect feedback from staff and guests. ChargeM3 offers a completely free first month with no credit card required, so you can try it in your real dining room before deciding.",
+            "Start with part of your restaurant or a single service and collect feedback from staff and guests. ChargeM3 offers a completely free 30-day trial with no credit card required, so you can try it in your real dining room before deciding.",
         },
       ],
     },
@@ -133,7 +133,7 @@ const post: BlogPost = {
           paragraphs: [
             "Не е нужно да сменяте всичко в един и същи ден. Започнете с една част от залата или с една смяна, например обедната, и се поучете от нея. Дръжте печатни менюта на стойката на посрещача и ги подавайте при поискване.",
             "Направете QR кода лесен за намиране и добавете кратко указание. Инструктирайте екипа, за да дава всеки един и същ отговор, когато гост попита как работи. След няколко седмици прегледайте наученото и коригирайте.",
-            "Първият месец с ChargeM3 е безплатен и не е нужна кредитна карта, така че можете да направите такъв тест в собствения си ресторант, преди да се обвържете с каквото и да било. Планът е 50 евро на месец без ДДС, без такса за инсталация.",
+            "Първите 30 дни с ChargeM3 са безплатни и не е нужна кредитна карта, така че можете да направите такъв тест в собствения си ресторант, преди да се обвържете с каквото и да било. Планът е 60 евро на месец без ДДС, без такса за инсталация.",
           ],
         },
       ],
@@ -161,7 +161,7 @@ const post: BlogPost = {
         {
           question: "Как мога да пробвам дигитално меню без голяма обвързаност?",
           answer:
-            "Започнете с част от ресторанта или с една смяна и съберете мнения от персонала и гостите. ChargeM3 предлага напълно безплатен първи месец без нужда от кредитна карта, така че можете да го изпробвате в истинската си зала, преди да решите.",
+            "Започнете с част от ресторанта или с една смяна и съберете мнения от персонала и гостите. ChargeM3 предлага напълно безплатен 30-дневен период без нужда от кредитна карта, така че можете да го изпробвате в истинската си зала, преди да решите.",
         },
       ],
     },

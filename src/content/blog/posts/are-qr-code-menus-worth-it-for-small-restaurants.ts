@@ -20,7 +20,7 @@ const post: BlogPost = {
           heading: "What a QR code menu really costs",
           paragraphs: [
             "The cost falls into three groups: the subscription, the codes and stands on your tables, and the time you spend on setup. Some providers also charge an installation fee or per-device fees, so ask exactly what is included before you compare offers.",
-            "For reference, ChargeM3 is €50 per month before VAT, which is €600 per year before VAT. There is no installation fee, the first month is completely free, and no credit card is required to start. A 2-year contract brings a 15% discount on the monthly price.",
+            "For reference, ChargeM3 is €60 per month before VAT, which is €720 per year before VAT. There is no installation fee, the first 30 days are completely free, and no credit card is required to start. A 2-year contract brings a 15% discount on the monthly price.",
             "That fee covers unlimited connected workstations, mobile apps for monitoring and for taking orders, automatic cloud backup, automatic updates, 24/7 support, staff training and product catalog setup guidance. Add the small one-off extras, such as printing QR cards or buying stands, and an hour or two of your own time.",
           ],
         },
@@ -52,8 +52,8 @@ const post: BlogPost = {
           heading: "How to try it with very little risk",
           paragraphs: [
             "The lowest-risk approach is a limited test. Set up the menu, put codes on a few tables or use it for one service, and track the same things you counted in your baseline, plus how guests and staff react.",
-            "ChargeM3 makes this simple: the first month is free, no credit card is required, and there is no installation fee. Product catalog setup guidance and staff training are included, so you are not left to figure it out alone.",
-            "At the end of the month, compare. Did reprints stop? Did your team feel less rushed? Did guests use it without help? If the answers are yes, continue. If not, you will have spent mostly your own time, and you will know why.",
+            "ChargeM3 makes this simple: the first 30 days are free, no credit card is required, and there is no installation fee. Product catalog setup guidance and staff training are included, so you are not left to figure it out alone.",
+            "At the end of the 30 days, compare. Did reprints stop? Did your team feel less rushed? Did guests use it without help? If the answers are yes, continue. If not, you will have spent mostly your own time, and you will know why.",
           ],
         },
       ],
@@ -66,7 +66,7 @@ const post: BlogPost = {
         {
           question: "How much does a QR code menu cost?",
           answer:
-            "Prices vary by provider. ChargeM3 costs €50 per month before VAT, with no installation fee and a completely free first month. Signing a 2-year contract gives a 15% discount on the monthly price.",
+            "Prices vary by provider. ChargeM3 costs €60 per month before VAT, with no installation fee and a completely free 30-day trial. Signing a 2-year contract gives a 15% discount on the monthly price.",
         },
         {
           question: "Do I need special equipment for a QR code menu?",
@@ -76,7 +76,7 @@ const post: BlogPost = {
         {
           question: "Can I try a QR code menu for free?",
           answer:
-            "With ChargeM3, yes. The first month is completely free and no credit card is required to start, so you can test the menu in your real restaurant before paying anything.",
+            "With ChargeM3, yes. The first 30 days are completely free and no credit card is required to start, so you can test the menu in your real restaurant before paying anything.",
         },
         {
           question: "What if some of my guests do not want to use their phone?",
@@ -100,7 +100,7 @@ const post: BlogPost = {
           heading: "Колко наистина струва менюто с QR код",
           paragraphs: [
             "Разходите попадат в три групи: абонамент, кодове и стойки за масите и времето, което отделяте за настройка. Някои доставчици начисляват и такса за инсталация или такси за устройство, затова питайте точно какво е включено, преди да сравнявате оферти.",
-            "За ориентир, ChargeM3 струва 50 евро на месец без ДДС, тоест 600 евро на година без ДДС. Няма такса за инсталация, първият месец е напълно безплатен и не е нужна кредитна карта, за да започнете. При 2-годишен договор има 15% отстъпка от месечната цена.",
+            "За ориентир, ChargeM3 струва 60 евро на месец без ДДС, тоест 720 евро на година без ДДС. Няма такса за инсталация, първите 30 дни са напълно безплатни и не е нужна кредитна карта, за да започнете. При 2-годишен договор има 15% отстъпка от месечната цена.",
             "Тази цена покрива неограничен брой свързани работни станции, мобилни приложения за наблюдение и за приемане на поръчки, автоматичен облачен бекъп, автоматични обновявания, поддръжка 24/7, обучение на персонала и помощ при настройка на продуктовия каталог. Прибавете малките еднократни разходи, като печат на картончета с QR код или купуване на стойки, и час-два от вашето време.",
           ],
         },
@@ -132,8 +132,8 @@ const post: BlogPost = {
           heading: "Как да го изпробвате с много малък риск",
           paragraphs: [
             "Най-безрисковият подход е ограничен тест. Настройте менюто, сложете кодове на няколко маси или го използвайте за една смяна и следете същите неща, които преброихте в отправната си точка, плюс реакцията на гости и персонал.",
-            "ChargeM3 прави това лесно: първият месец е безплатен, не е нужна кредитна карта и няма такса за инсталация. Помощта при настройка на продуктовия каталог и обучението на персонала са включени, така че не оставате сами.",
-            "В края на месеца сравнете. Спряха ли препечатванията? Почувства ли екипът ви по-малко напрежение? Ползваха ли гостите менюто без помощ? Ако отговорите са да, продължете. Ако не, ще сте похарчили предимно собственото си време и ще знаете защо.",
+            "ChargeM3 прави това лесно: първите 30 дни са безплатни, не е нужна кредитна карта и няма такса за инсталация. Помощта при настройка на продуктовия каталог и обучението на персонала са включени, така че не оставате сами.",
+            "В края на 30-те дни сравнете. Спряха ли препечатванията? Почувства ли екипът ви по-малко напрежение? Ползваха ли гостите менюто без помощ? Ако отговорите са да, продължете. Ако не, ще сте похарчили предимно собственото си време и ще знаете защо.",
           ],
         },
       ],
@@ -146,7 +146,7 @@ const post: BlogPost = {
         {
           question: "Колко струва менюто с QR код?",
           answer:
-            "Цените се различават според доставчика. ChargeM3 струва 50 евро на месец без ДДС, без такса за инсталация и с напълно безплатен първи месец. При 2-годишен договор има 15% отстъпка от месечната цена.",
+            "Цените се различават според доставчика. ChargeM3 струва 60 евро на месец без ДДС, без такса за инсталация и с напълно безплатен 30-дневен период. При 2-годишен договор има 15% отстъпка от месечната цена.",
         },
         {
           question: "Нужно ли ми е специално оборудване за менюто с QR код?",
@@ -156,7 +156,7 @@ const post: BlogPost = {
         {
           question: "Мога ли да пробвам менюто с QR код безплатно?",
           answer:
-            "При ChargeM3 да. Първият месец е напълно безплатен и не е нужна кредитна карта, за да започнете, така че можете да изпробвате менюто в истинския си ресторант, преди да платите каквото и да било.",
+            "При ChargeM3 да. Първите 30 дни са напълно безплатни и не е нужна кредитна карта, за да започнете, така че можете да изпробвате менюто в истинския си ресторант, преди да платите каквото и да било.",
         },
         {
           question: "Какво да правя, ако някои гости не искат да ползват телефона си?",

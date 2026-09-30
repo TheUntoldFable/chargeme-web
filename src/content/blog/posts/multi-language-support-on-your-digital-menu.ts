@@ -61,7 +61,7 @@ const post: BlogPost = {
           paragraphs: [
             "Ask a native speaker of each language to go through a full order, from scanning the code to paying. Watch for text that is cut off, awkward line breaks and terms that sound unnatural, since some languages need noticeably more space than others.",
             "Fix the small things before guests find them. A first impression of confusion is hard to reverse, especially for visitors who are only in town for a few days.",
-            "ChargeM3 offers guidance on setting up your product catalog, and the first month is completely free with no credit card required, so you can build and test your language versions before committing.",
+            "ChargeM3 offers guidance on setting up your product catalog, and the first 30 days are completely free with no credit card required, so you can build and test your language versions before committing.",
           ],
         },
       ],
@@ -149,7 +149,7 @@ const post: BlogPost = {
           paragraphs: [
             "Помолете носител на всеки език да мине през цялата поръчка, от сканирането на кода до плащането. Гледайте за отрязан текст, неудобно пренасяне на редове и термини, които звучат неестествено, тъй като някои езици изискват забележимо повече място от други.",
             "Оправете дребните неща, преди гостите да са ги намерили. Първото впечатление на объркване трудно се променя, особено при посетители, които са в града само за няколко дни.",
-            "ChargeM3 предлага помощ при настройката на продуктовия каталог, а първият месец е напълно безплатен и без нужда от кредитна карта, така че можете да изградите и тествате езиковите си версии, преди да поемете ангажимент.",
+            "ChargeM3 предлага помощ при настройката на продуктовия каталог, а първите 30 дни са напълно безплатни и без нужда от кредитна карта, така че можете да изградите и тествате езиковите си версии, преди да поемете ангажимент.",
           ],
         },
       ],

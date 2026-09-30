@@ -52,7 +52,7 @@ const post: BlogPost = {
         {
           heading: "Typical pricing",
           paragraphs: [
-            "ChargeM3 offers one all-in-one plan: €50 per month before VAT, with the first month completely free and no installation fee.",
+            "ChargeM3 offers one all-in-one plan: €60 per month before VAT, with the first 30 days completely free and no installation fee.",
             "The plan includes an unlimited number of connected workstations, a mobile app for monitoring and statistics, a mobile app for taking orders on the go, automatic cloud backup and database storage, automatic updates to the latest version, 24/7 support, staff training, guidance for setting up the product catalog, and remote access.",
             "Restaurants that sign a 2-year contract get a 15% discount on the monthly price.",
             "Physical QR stands or cards, reliable connectivity and staff devices are separate costs, so budget for them too.",
@@ -64,7 +64,7 @@ const post: BlogPost = {
             "A QR digital menu is for restaurants that want to modernize their menu experience — replacing paper menus with something guests can browse and order from on their own phones.",
             "It suits any restaurant that wants a single, all-in-one system to run and grow the business, rather than juggling separate printed menus, ordering, and reporting tools.",
             "It fits less well in some places. Fine-dining rooms, where the printed menu and the server's explanation are part of the experience, very small venues with a short, rarely changing menu, and venues with many older guests may gain less and should keep paper menus available. Weak mobile coverage can frustrate guests, so test from the most awkward table. Some restaurants start with QR ordering only on the terrace or at the bar.",
-            "A rough readiness test: you have a menu you can keep up to date, someone who will own it, a team willing to be trained, decent coverage at every table, and a plan for guests who prefer paper. If most of that is true, the first free month is a low-risk way to see how your own guests react.",
+            "A rough readiness test: you have a menu you can keep up to date, someone who will own it, a team willing to be trained, decent coverage at every table, and a plan for guests who prefer paper. If most of that is true, the 30-day free trial is a low-risk way to see how your own guests react.",
           ],
         },
       ],
@@ -72,12 +72,12 @@ const post: BlogPost = {
         {
           question: "How much does it cost?",
           answer:
-            "€50 per month (before VAT), with no installation fee. Your first month is completely free and no credit card is required to get started.",
+            "€60 per month (before VAT), with no installation fee. Your first 30 days are completely free and no credit card is required to get started.",
         },
         {
           question: "Is there really a free trial?",
           answer:
-            "Yes — your first month is on us, so you can test everything risk-free. No card required, and you can cancel anytime.",
+            "Yes — your first 30 days are on us, so you can test everything risk-free. No card required, and you can cancel anytime.",
         },
         {
           question: "Do my customers need to download an app?",
@@ -148,7 +148,7 @@ const post: BlogPost = {
         {
           heading: "Типично ценообразуване",
           paragraphs: [
-            "ChargeM3 предлага един всеобхватен план: 50 евро на месец без ДДС, като първият месец е напълно безплатен и без такса за инсталация.",
+            "ChargeM3 предлага един всеобхватен план: 60 евро на месец без ДДС, като първите 30 дни са напълно безплатни и без такса за инсталация.",
             "Планът включва неограничен брой свързани работни станции, мобилно приложение за наблюдение и статистика, мобилно приложение за приемане на поръчки в движение, автоматичен облачен бекъп и съхранение на база данни, автоматични обновявания до най-новата версия, поддръжка 24/7, обучение на персонала, помощ при настройка на продуктовия каталог и отдалечен достъп.",
             "Ресторанти, които сключат 2-годишен договор, получават 15% отстъпка от месечната цена.",
             "Физическите QR стойки или картички, надеждната мобилна връзка и устройствата за персонала са отделни разходи, затова ги включете в бюджета.",
@@ -160,7 +160,7 @@ const post: BlogPost = {
             "Дигиталното меню с QR код е за ресторанти, които искат да модернизират менюто си — заменяйки хартиените менюта с нещо, което гостите могат да разглеждат и от което да поръчват от собствените си телефони.",
             "Подходящо е за всеки ресторант, който иска една всеобхватна система, за да управлява и развива бизнеса си, вместо да жонглира с отделни печатни менюта, поръчки и инструменти за отчитане.",
             "На някои места пасва по-трудно. Изисканите ресторанти, където печатното меню и обясненията на сервитьора са част от преживяването, много малките заведения с кратко, рядко променящо се меню и заведенията с много възрастни гости може да спечелят по-малко и е добре да държат хартиени менюта. Слабото покритие може да затрудни гостите, затова тествайте от най-неудобната маса. Някои ресторанти започват с QR поръчки само на терасата или на бара.",
-            "Груб тест за готовност: имате меню, което можете да поддържате актуално, човек, който да отговаря за него, екип, готов да бъде обучен, добро покритие на всяка маса и план за гостите, които предпочитат хартия. Ако повечето от това е вярно, безплатният първи месец е нискорисков начин да видите как реагират вашите гости.",
+            "Груб тест за готовност: имате меню, което можете да поддържате актуално, човек, който да отговаря за него, екип, готов да бъде обучен, добро покритие на всяка маса и план за гостите, които предпочитат хартия. Ако повечето от това е вярно, 30-дневният безплатен период е нискорисков начин да видите как реагират вашите гости.",
           ],
         },
       ],
@@ -168,12 +168,12 @@ const post: BlogPost = {
         {
           question: "Колко струва?",
           answer:
-            "50 евро на месец (без ДДС), без такса за инсталация. Първият месец е напълно безплатен и не е необходима кредитна карта, за да започнете.",
+            "60 евро на месец (без ДДС), без такса за инсталация. Първите 30 дни са напълно безплатни и не е необходима кредитна карта, за да започнете.",
         },
         {
           question: "Наистина ли има безплатен пробен период?",
           answer:
-            "Да — първият месец е от нас, за да изпробвате всичко без риск. Не е нужна карта и можете да се откажете по всяко време.",
+            "Да — първите 30 дни са от нас, за да изпробвате всичко без риск. Не е нужна карта и можете да се откажете по всяко време.",
         },
         {
           question: "Трябва ли клиентите ми да свалят приложение?",
