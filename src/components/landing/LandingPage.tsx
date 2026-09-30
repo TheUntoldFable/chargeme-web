@@ -425,7 +425,7 @@ function PricingSection() {
             {/* Left: price + CTA */}
             <div className="p-8 sm:p-10 border-b lg:border-b-0 lg:border-r border-white/10 flex flex-col">
               <div className="inline-flex self-start items-center gap-2 text-[11px] font-semibold tracking-wide text-yellow-400 bg-yellow-400/10 border border-yellow-400/30 px-3 py-1 rounded-full mb-6">
-                {t("pricing.freeTrialBadge")}
+                {t("pricing.firstMonthFree")}
               </div>
 
               <div className="flex items-end gap-2 mb-1">
