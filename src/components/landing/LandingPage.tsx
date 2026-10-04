@@ -430,7 +430,7 @@ function PricingSection() {
 
               <div className="flex items-end gap-2 mb-1">
                 <span className="text-5xl sm:text-6xl font-extrabold text-white">
-                  €50
+                  €60
                 </span>
                 <span className="text-gray-400 text-lg mb-2">
                   {t("pricing.perMonth")}
@@ -1041,17 +1041,14 @@ export default function Page() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mb-8">
             {/* Brand + blurb */}
             <div>
-              <div className="flex items-center gap-2 mb-3">
-                <span className="inline-flex items-center justify-center w-6 h-6 rounded bg-yellow-400/15 border border-yellow-400/30 text-yellow-400">
-                  <svg
-                    viewBox="0 0 20 20"
-                    className="w-3.5 h-3.5"
-                    fill="currentColor"
-                  >
-                    <path d="M3 3h6v6H3zM11 3h6v6h-6zM3 11h6v6H3zM11 11h6v6h-6z" />
-                  </svg>
-                </span>
-                <span className="text-white font-semibold">Charge me</span>
+              <div className="flex items-center mb-3">
+                <Image
+                  src="/chargeme-logo.png"
+                  alt="ChargeMe"
+                  width={209}
+                  height={52}
+                  className="h-7 w-auto"
+                />
               </div>
               <p className="text-gray-400 text-sm leading-relaxed mb-4">
                 {t("footer.blurb")}
@@ -1146,6 +1143,14 @@ export default function Page() {
                   <a href="#booking" className="hover:text-yellow-400">
                     {t("footer.quickLinks.booking")}
                   </a>
+                </li>
+                <li>
+                  <Link
+                    href={`/${lang}/blog`}
+                    className="hover:text-yellow-400"
+                  >
+                    {t("footer.quickLinks.blog")}
+                  </Link>
                 </li>
               </ul>
             </div>

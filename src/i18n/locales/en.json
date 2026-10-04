@@ -85,10 +85,10 @@
     "titleHighlight": "Transparent",
     "titleTrail": " Pricing",
     "subtitle": "One all-in-one plan with everything you need to run and grow your restaurant.",
-    "firstMonthFree": "FIRST MONTH FREE",
+    "firstMonthFree": "30 DAYS FREE",
     "perMonth": "/ month",
     "beforeVat": "before VAT",
-    "cta": "Start Your Free Month",
+    "cta": "Start Your Free 30 Days",
     "saveTitle": "Save 15%",
     "saveDesc": "when you sign a 2-year contract",
     "everythingIncluded": "Everything included",
@@ -113,11 +113,11 @@
     "items": [
       {
         "question": "How much does it cost?",
-        "answer": "€50 per month (before VAT), with no installation fee. Your first month is completely free and no credit card is required to get started."
+        "answer": "€60 per month (before VAT), with no installation fee. Your first 30 days are completely free and no credit card is required to get started."
       },
       {
         "question": "Is there really a free trial?",
-        "answer": "Yes — your first month is on us, so you can test everything risk-free. No card required, and you can cancel anytime."
+        "answer": "Yes — your first 30 days are on us, so you can test everything risk-free. No card required, and you can cancel anytime."
       },
       {
         "question": "Do you offer a discount for longer commitments?",
@@ -151,7 +151,7 @@
     "titleTrail": " Your Restaurant?",
     "subtitle": "Join thousands of restaurants already using Charge me to enhance their customer experience",
     "benefits": [
-      "14-day free trial",
+      "30-day free trial",
       "No setup fees",
       "24/7 support",
       "Easy migration"
@@ -197,7 +197,8 @@
       "pricing": "Pricing",
       "faq": "FAQ",
       "demo": "Demo",
-      "booking": "Book a Meeting"
+      "booking": "Book a Meeting",
+      "blog": "Blog"
     },
     "copyright": "© 2024 Charge me. All rights reserved."
   },
